@@ -1,0 +1,15 @@
+{% if persons.count > 0 %}
+<h1>{{ persons.count }} </h1>	
+{% for person in persons %}
+
+	<li><a href="{{ person.get_absolute_url }}">{{ person.get_full_name }}</a></li>
+	<!--li><a href="{% url 'haystack_search' %}">{{ person.first_name }}</a></li>
+
+	<li><a href="/persons/get/{{ person.id}}">{{ person.first_name }}</a></li-->
+        
+{% endfor %}
+	
+{% else %}
+<li> None to show!</li>
+
+{% endif %}

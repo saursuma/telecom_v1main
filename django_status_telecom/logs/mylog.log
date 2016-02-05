@@ -1,0 +1,1310 @@
+2016-01-24 05:58:51,430 [DEBUG] persons.views: a
+2016-01-24 05:58:51,431 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:33,141 [DEBUG] persons.views: A
+2016-01-24 06:17:33,143 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:33,180 [DEBUG] persons.views: A
+2016-01-24 06:17:33,181 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:33,278 [DEBUG] persons.views: Al
+2016-01-24 06:17:33,279 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:33,503 [DEBUG] persons.views: All
+2016-01-24 06:17:33,504 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:34,309 [DEBUG] persons.views: Al
+2016-01-24 06:17:34,310 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:34,739 [DEBUG] persons.views: A
+2016-01-24 06:17:34,740 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:35,063 [DEBUG] persons.views: 
+2016-01-24 06:17:35,064 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:36,047 [DEBUG] persons.views: N
+2016-01-24 06:17:36,048 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:36,115 [DEBUG] persons.views: N
+2016-01-24 06:17:36,116 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:36,701 [DEBUG] persons.views: Na
+2016-01-24 06:17:36,701 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:37,926 [DEBUG] persons.views: N
+2016-01-24 06:17:37,927 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 06:17:38,141 [DEBUG] persons.views: 
+2016-01-24 06:17:38,148 [DEBUG] persons.views: [<Persons: Persons object>, <Persons: Persons object>, <Persons: Persons object>]
+2016-01-24 17:42:58,944 [ERROR] root: Error updating persons using default 
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 188, in handle_label
+    self.update_backend(label, using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 233, in update_backend
+    do_update(backend, index, qs, start, end, total, verbosity=self.verbosity, commit=self.commit)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 96, in do_update
+    backend.update(index, current_qs, commit=commit)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/backends/whoosh_backend.py", line 196, in update
+    doc = index.full_prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/indexes.py", line 212, in full_prepare
+    self.prepared_data = self.prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/indexes.py", line 203, in prepare
+    self.prepared_data[field.index_fieldname] = field.prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 159, in prepare
+    return self.convert(super(CharField, self).prepare(obj))
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 79, in prepare
+    return self.prepare_template(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 136, in prepare_template
+    t = loader.select_template(template_names)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 74, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+TemplateDoesNotExist: search/indexes/persons/persons_text.txt
+2016-01-24 17:44:31,625 [ERROR] root: Error updating persons using default 
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 188, in handle_label
+    self.update_backend(label, using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 233, in update_backend
+    do_update(backend, index, qs, start, end, total, verbosity=self.verbosity, commit=self.commit)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 96, in do_update
+    backend.update(index, current_qs, commit=commit)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/backends/whoosh_backend.py", line 196, in update
+    doc = index.full_prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/indexes.py", line 212, in full_prepare
+    self.prepared_data = self.prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/indexes.py", line 203, in prepare
+    self.prepared_data[field.index_fieldname] = field.prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 159, in prepare
+    return self.convert(super(CharField, self).prepare(obj))
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 79, in prepare
+    return self.prepare_template(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 136, in prepare_template
+    t = loader.select_template(template_names)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 74, in select_template
+    raise TemplateDoesNotExist(', '.join(template_name_list), chain=chain)
+TemplateDoesNotExist: search/indexes/persons/persons_text.txt
+2016-01-24 17:44:57,413 [ERROR] root: Error updating persons using default 
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 188, in handle_label
+    self.update_backend(label, using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 233, in update_backend
+    do_update(backend, index, qs, start, end, total, verbosity=self.verbosity, commit=self.commit)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/management/commands/update_index.py", line 96, in do_update
+    backend.update(index, current_qs, commit=commit)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/backends/whoosh_backend.py", line 196, in update
+    doc = index.full_prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/indexes.py", line 212, in full_prepare
+    self.prepared_data = self.prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/indexes.py", line 203, in prepare
+    self.prepared_data[field.index_fieldname] = field.prepare(obj)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/haystack/fields.py", line 87, in prepare
+    raise SearchFieldError("The model '%s' does not have a model_attr '%s'." % (repr(current_object), attr))
+SearchFieldError: The model '<Persons: Persons object>' does not have a model_attr 'pub_date'.
+2016-01-24 18:59:58,373 [DEBUG] persons.views: search_text
+2016-01-24 18:59:58,566 [DEBUG] persons.views: search_text
+2016-01-24 18:59:58,770 [DEBUG] persons.views: search_text
+2016-01-24 18:59:58,905 [DEBUG] persons.views: search_text
+2016-01-24 18:59:58,965 [DEBUG] persons.views: search_text
+2016-01-24 19:02:20,341 [DEBUG] persons.views: search_text
+2016-01-24 19:02:20,342 [DEBUG] persons.views: []
+2016-01-24 19:02:21,047 [DEBUG] persons.views: search_text
+2016-01-24 19:02:21,048 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:03:08,091 [DEBUG] persons.views: search_text
+2016-01-24 19:03:08,091 [DEBUG] persons.views: []
+2016-01-24 19:03:09,046 [DEBUG] persons.views: search_text
+2016-01-24 19:03:09,047 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:03:10,947 [DEBUG] persons.views: search_text
+2016-01-24 19:03:10,947 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:03:11,557 [DEBUG] persons.views: search_text
+2016-01-24 19:03:11,557 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:03:11,588 [DEBUG] persons.views: search_text
+2016-01-24 19:03:11,589 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:08:06,909 [DEBUG] persons.views: search_text
+2016-01-24 19:08:06,910 [DEBUG] persons.views: []
+2016-01-24 19:08:07,107 [DEBUG] persons.views: search_text
+2016-01-24 19:08:07,107 [DEBUG] persons.views: []
+2016-01-24 19:08:08,521 [DEBUG] persons.views: search_text
+2016-01-24 19:08:08,521 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:08:09,681 [DEBUG] persons.views: search_text
+2016-01-24 19:08:09,682 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:08:09,765 [DEBUG] persons.views: search_text
+2016-01-24 19:08:09,765 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:09:58,694 [DEBUG] persons.views: search_text
+2016-01-24 19:09:58,694 [DEBUG] persons.views: []
+2016-01-24 19:09:58,766 [DEBUG] persons.views: search_text
+2016-01-24 19:09:58,767 [DEBUG] persons.views: []
+2016-01-24 19:09:59,232 [DEBUG] persons.views: search_text
+2016-01-24 19:09:59,233 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:09:59,311 [DEBUG] persons.views: search_text
+2016-01-24 19:09:59,312 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:12:55,278 [DEBUG] persons.views: search_text
+2016-01-24 19:12:55,278 [DEBUG] persons.views: []
+2016-01-24 19:12:55,457 [DEBUG] persons.views: search_text
+2016-01-24 19:12:55,457 [DEBUG] persons.views: []
+2016-01-24 19:12:57,988 [DEBUG] persons.views: search_text
+2016-01-24 19:12:57,989 [DEBUG] persons.views: []
+2016-01-24 19:12:58,961 [DEBUG] persons.views: search_text
+2016-01-24 19:12:58,961 [DEBUG] persons.views: []
+2016-01-24 19:13:00,071 [DEBUG] persons.views: search_text
+2016-01-24 19:13:00,072 [DEBUG] persons.views: []
+2016-01-24 19:13:00,260 [DEBUG] persons.views: search_text
+2016-01-24 19:13:00,261 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:13:00,454 [DEBUG] persons.views: search_text
+2016-01-24 19:13:00,454 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:13:00,591 [DEBUG] persons.views: search_text
+2016-01-24 19:13:00,592 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:13:03,201 [DEBUG] persons.views: search_text
+2016-01-24 19:13:03,202 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:13:03,379 [DEBUG] persons.views: search_text
+2016-01-24 19:13:03,380 [DEBUG] persons.views: []
+2016-01-24 19:13:03,602 [DEBUG] persons.views: search_text
+2016-01-24 19:13:03,603 [DEBUG] persons.views: []
+2016-01-24 19:13:04,642 [DEBUG] persons.views: search_text
+2016-01-24 19:13:04,642 [DEBUG] persons.views: []
+2016-01-24 19:13:04,856 [DEBUG] persons.views: search_text
+2016-01-24 19:13:04,857 [DEBUG] persons.views: []
+2016-01-24 19:13:05,329 [DEBUG] persons.views: search_text
+2016-01-24 19:13:05,329 [DEBUG] persons.views: []
+2016-01-24 19:13:05,444 [DEBUG] persons.views: search_text
+2016-01-24 19:13:05,445 [DEBUG] persons.views: []
+2016-01-24 19:13:06,484 [DEBUG] persons.views: search_text
+2016-01-24 19:13:06,485 [DEBUG] persons.views: []
+2016-01-24 19:13:06,615 [DEBUG] persons.views: search_text
+2016-01-24 19:13:06,616 [DEBUG] persons.views: []
+2016-01-24 19:16:04,020 [DEBUG] persons.views: search_text
+2016-01-24 19:16:04,021 [DEBUG] persons.views: []
+2016-01-24 19:16:04,215 [DEBUG] persons.views: search_text
+2016-01-24 19:16:04,216 [DEBUG] persons.views: []
+2016-01-24 19:16:04,412 [DEBUG] persons.views: search_text
+2016-01-24 19:16:04,412 [DEBUG] persons.views: []
+2016-01-24 19:16:04,551 [DEBUG] persons.views: search_text
+2016-01-24 19:16:04,552 [DEBUG] persons.views: []
+2016-01-24 19:16:04,744 [DEBUG] persons.views: search_text
+2016-01-24 19:16:04,745 [DEBUG] persons.views: []
+2016-01-24 19:16:05,780 [DEBUG] persons.views: search_text
+2016-01-24 19:16:05,781 [DEBUG] persons.views: []
+2016-01-24 19:16:06,037 [DEBUG] persons.views: search_text
+2016-01-24 19:16:06,037 [DEBUG] persons.views: []
+2016-01-24 19:16:06,870 [DEBUG] persons.views: search_text
+2016-01-24 19:16:06,871 [DEBUG] persons.views: []
+2016-01-24 19:16:07,102 [DEBUG] persons.views: search_text
+2016-01-24 19:16:07,103 [DEBUG] persons.views: []
+2016-01-24 19:16:07,444 [DEBUG] persons.views: search_text
+2016-01-24 19:16:07,444 [DEBUG] persons.views: []
+2016-01-24 19:16:07,604 [DEBUG] persons.views: search_text
+2016-01-24 19:16:07,604 [DEBUG] persons.views: []
+2016-01-24 19:16:08,074 [DEBUG] persons.views: search_text
+2016-01-24 19:16:08,074 [DEBUG] persons.views: []
+2016-01-24 19:16:08,230 [DEBUG] persons.views: search_text
+2016-01-24 19:16:08,230 [DEBUG] persons.views: []
+2016-01-24 19:16:09,168 [DEBUG] persons.views: search_text
+2016-01-24 19:16:09,169 [DEBUG] persons.views: []
+2016-01-24 19:16:09,713 [DEBUG] persons.views: search_text
+2016-01-24 19:16:09,713 [DEBUG] persons.views: []
+2016-01-24 19:16:10,787 [DEBUG] persons.views: search_text
+2016-01-24 19:16:10,787 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:16:10,909 [DEBUG] persons.views: search_text
+2016-01-24 19:16:10,910 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:16:11,008 [DEBUG] persons.views: search_text
+2016-01-24 19:16:11,009 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:18:16,190 [DEBUG] persons.views: search_text
+2016-01-24 19:18:16,191 [DEBUG] persons.views: []
+2016-01-24 19:18:16,328 [DEBUG] persons.views: search_text
+2016-01-24 19:18:16,328 [DEBUG] persons.views: []
+2016-01-24 19:18:16,606 [DEBUG] persons.views: search_text
+2016-01-24 19:18:16,606 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:18:16,765 [DEBUG] persons.views: search_text
+2016-01-24 19:18:16,766 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:18:16,811 [DEBUG] persons.views: search_text
+2016-01-24 19:18:16,812 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:20:00,292 [DEBUG] persons.views: search_text
+2016-01-24 19:20:00,292 [DEBUG] persons.views: []
+2016-01-24 19:20:00,470 [DEBUG] persons.views: search_text
+2016-01-24 19:20:00,470 [DEBUG] persons.views: []
+2016-01-24 19:20:01,709 [DEBUG] persons.views: search_text
+2016-01-24 19:20:01,709 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:21:12,154 [DEBUG] persons.views: search_text
+2016-01-24 19:21:12,155 [DEBUG] persons.views: []
+2016-01-24 19:21:12,387 [DEBUG] persons.views: search_text
+2016-01-24 19:21:12,388 [DEBUG] persons.views: []
+2016-01-24 19:21:13,507 [DEBUG] persons.views: search_text
+2016-01-24 19:21:13,508 [DEBUG] persons.views: []
+2016-01-24 19:21:13,764 [DEBUG] persons.views: search_text
+2016-01-24 19:21:13,764 [DEBUG] persons.views: []
+2016-01-24 19:21:15,239 [DEBUG] persons.views: search_text
+2016-01-24 19:21:15,240 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:21:16,441 [DEBUG] persons.views: search_text
+2016-01-24 19:21:16,442 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:21:16,613 [DEBUG] persons.views: search_text
+2016-01-24 19:21:16,613 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:23:22,517 [DEBUG] persons.views: search_text
+2016-01-24 19:23:22,517 [DEBUG] persons.views: []
+2016-01-24 19:23:22,742 [DEBUG] persons.views: search_text
+2016-01-24 19:23:22,742 [DEBUG] persons.views: []
+2016-01-24 19:23:27,195 [DEBUG] persons.views: search_text
+2016-01-24 19:23:27,196 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:23:27,249 [DEBUG] persons.views: search_text
+2016-01-24 19:23:27,250 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:26:10,378 [DEBUG] persons.views: search_text
+2016-01-24 19:26:10,378 [DEBUG] persons.views: []
+2016-01-24 19:26:10,662 [DEBUG] persons.views: search_text
+2016-01-24 19:26:10,663 [DEBUG] persons.views: []
+2016-01-24 19:26:12,687 [DEBUG] persons.views: search_text
+2016-01-24 19:26:12,688 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:26:12,723 [DEBUG] persons.views: search_text
+2016-01-24 19:26:12,724 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-24 19:26:39,848 [DEBUG] persons.views: search_text
+2016-01-24 19:26:39,848 [DEBUG] persons.views: []
+2016-01-24 19:26:41,072 [DEBUG] persons.views: search_text
+2016-01-24 19:26:41,072 [DEBUG] persons.views: []
+2016-01-24 19:26:41,384 [DEBUG] persons.views: search_text
+2016-01-24 19:26:41,384 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:26:41,504 [DEBUG] persons.views: search_text
+2016-01-24 19:26:41,505 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:26:41,592 [DEBUG] persons.views: search_text
+2016-01-24 19:26:41,592 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:27:20,097 [DEBUG] persons.views: search_text
+2016-01-24 19:27:20,098 [DEBUG] persons.views: []
+2016-01-24 19:27:20,469 [DEBUG] persons.views: search_text
+2016-01-24 19:27:20,469 [DEBUG] persons.views: []
+2016-01-24 19:27:21,151 [DEBUG] persons.views: search_text
+2016-01-24 19:27:21,152 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:27:21,270 [DEBUG] persons.views: search_text
+2016-01-24 19:27:21,270 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:27:21,360 [DEBUG] persons.views: search_text
+2016-01-24 19:27:21,361 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:28:53,270 [DEBUG] persons.views: search_text
+2016-01-24 19:28:53,271 [DEBUG] persons.views: []
+2016-01-24 19:28:53,432 [DEBUG] persons.views: search_text
+2016-01-24 19:28:53,432 [DEBUG] persons.views: []
+2016-01-24 19:28:53,867 [DEBUG] persons.views: search_text
+2016-01-24 19:28:53,868 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:28:53,967 [DEBUG] persons.views: search_text
+2016-01-24 19:28:53,967 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:28:54,044 [DEBUG] persons.views: search_text
+2016-01-24 19:28:54,045 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:29:23,865 [DEBUG] persons.views: search_text
+2016-01-24 19:29:23,866 [DEBUG] persons.views: []
+2016-01-24 19:29:23,890 [DEBUG] persons.views: search_text
+2016-01-24 19:29:23,890 [DEBUG] persons.views: []
+2016-01-24 19:29:24,173 [DEBUG] persons.views: search_text
+2016-01-24 19:29:24,173 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:29:24,248 [DEBUG] persons.views: search_text
+2016-01-24 19:29:24,249 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:29:24,285 [DEBUG] persons.views: search_text
+2016-01-24 19:29:24,286 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:31:36,461 [DEBUG] persons.views: search_text
+2016-01-24 19:31:36,463 [DEBUG] persons.views: []
+2016-01-24 19:31:36,481 [DEBUG] persons.views: search_text
+2016-01-24 19:31:36,482 [DEBUG] persons.views: []
+2016-01-24 19:31:39,182 [DEBUG] persons.views: search_text
+2016-01-24 19:31:39,183 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:31:40,596 [DEBUG] persons.views: search_text
+2016-01-24 19:31:40,597 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:31:40,660 [DEBUG] persons.views: search_text
+2016-01-24 19:31:40,661 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:32:13,791 [DEBUG] persons.views: search_text
+2016-01-24 19:32:13,791 [DEBUG] persons.views: []
+2016-01-24 19:32:13,961 [DEBUG] persons.views: search_text
+2016-01-24 19:32:13,961 [DEBUG] persons.views: []
+2016-01-24 19:32:14,843 [DEBUG] persons.views: search_text
+2016-01-24 19:32:14,844 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:32:14,914 [DEBUG] persons.views: search_text
+2016-01-24 19:32:14,915 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:32:14,973 [DEBUG] persons.views: search_text
+2016-01-24 19:32:14,974 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-24 19:33:42,900 [DEBUG] persons.views: search_text
+2016-01-24 19:33:42,900 [DEBUG] persons.views: []
+2016-01-24 19:33:43,158 [DEBUG] persons.views: search_text
+2016-01-24 19:33:43,158 [DEBUG] persons.views: []
+2016-01-24 19:33:44,430 [DEBUG] persons.views: search_text
+2016-01-24 19:33:44,430 [DEBUG] persons.views: []
+2016-01-26 05:51:20,572 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7fdc69288d90>
+2016-01-26 05:51:20,590 [DEBUG] persons.search_indexes: <haystack.fields.EdgeNgramField object at 0x7fdc69288dd0>
+2016-01-26 05:52:56,851 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f7d3c12f750>
+2016-01-26 05:52:56,851 [DEBUG] persons.search_indexes: <haystack.fields.EdgeNgramField object at 0x7f7d3c12f810>
+2016-01-26 05:52:56,845 [DEBUG] persons.views: []
+2016-01-26 05:52:57,010 [DEBUG] persons.views: []
+2016-01-26 05:52:58,034 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 05:52:58,043 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 05:54:33,588 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f27d8921390>
+2016-01-26 05:54:33,588 [DEBUG] persons.search_indexes: <haystack.fields.EdgeNgramField object at 0x7f27d8921510>
+2016-01-26 05:54:33,581 [DEBUG] persons.views: []
+2016-01-26 05:54:33,662 [DEBUG] persons.views: []
+2016-01-26 05:54:33,806 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 05:54:33,818 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 05:54:57,056 [DEBUG] persons.views: []
+2016-01-26 05:54:57,069 [DEBUG] persons.views: []
+2016-01-26 05:54:57,430 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:57,439 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:57,888 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:57,898 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:57,968 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:57,983 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:58,051 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:54:58,063 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:56:57,406 [DEBUG] persons.views: []
+2016-01-26 05:56:57,420 [DEBUG] persons.views: []
+2016-01-26 05:56:58,224 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:56:58,233 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 05:59:57,904 [DEBUG] persons.views: []
+2016-01-26 05:59:57,918 [DEBUG] persons.views: []
+2016-01-26 06:00:23,255 [DEBUG] persons.views: []
+2016-01-26 06:00:23,271 [DEBUG] persons.views: []
+2016-01-26 06:00:33,545 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:00:33,554 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:01:51,001 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:01:51,011 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:02:08,469 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:02:08,478 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:02,555 [DEBUG] persons.views: []
+2016-01-26 06:07:02,568 [DEBUG] persons.views: []
+2016-01-26 06:07:03,430 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:03,439 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:05,137 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:05,146 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:05,220 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:05,229 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:05,298 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:05,308 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:58,364 [DEBUG] persons.views: []
+2016-01-26 06:07:58,378 [DEBUG] persons.views: []
+2016-01-26 06:07:58,946 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:07:58,954 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:08:31,040 [DEBUG] persons.views: []
+2016-01-26 06:08:31,053 [DEBUG] persons.views: []
+2016-01-26 06:08:31,502 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:08:31,510 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:08:33,156 [DEBUG] persons.views: []
+2016-01-26 06:08:33,169 [DEBUG] persons.views: []
+2016-01-26 06:08:55,606 [DEBUG] persons.views: []
+2016-01-26 06:08:55,619 [DEBUG] persons.views: []
+2016-01-26 06:08:55,965 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:08:55,973 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:08:57,910 [DEBUG] persons.views: []
+2016-01-26 06:08:57,923 [DEBUG] persons.views: []
+2016-01-26 06:10:16,424 [DEBUG] persons.views: []
+2016-01-26 06:10:16,438 [DEBUG] persons.views: []
+2016-01-26 06:10:17,420 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:17,429 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:18,534 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:18,543 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:18,855 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:18,863 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:18,935 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:18,946 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:42,576 [DEBUG] persons.views: []
+2016-01-26 06:10:42,589 [DEBUG] persons.views: []
+2016-01-26 06:10:43,226 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:43,234 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:44,505 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:44,513 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:44,588 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:44,598 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:44,751 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:10:44,760 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:11:08,408 [DEBUG] persons.views: []
+2016-01-26 06:11:08,421 [DEBUG] persons.views: []
+2016-01-26 06:11:08,996 [DEBUG] persons.views: []
+2016-01-26 06:11:09,009 [DEBUG] persons.views: []
+2016-01-26 06:11:10,449 [DEBUG] persons.views: []
+2016-01-26 06:11:10,463 [DEBUG] persons.views: []
+2016-01-26 06:11:11,130 [DEBUG] persons.views: []
+2016-01-26 06:11:11,144 [DEBUG] persons.views: []
+2016-01-26 06:11:11,316 [DEBUG] persons.views: []
+2016-01-26 06:11:11,329 [DEBUG] persons.views: []
+2016-01-26 06:11:12,144 [DEBUG] persons.views: []
+2016-01-26 06:11:12,158 [DEBUG] persons.views: []
+2016-01-26 06:11:12,863 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:11:12,872 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:11:14,674 [DEBUG] persons.views: []
+2016-01-26 06:11:14,688 [DEBUG] persons.views: []
+2016-01-26 06:12:41,634 [DEBUG] persons.views: []
+2016-01-26 06:12:41,649 [DEBUG] persons.views: []
+2016-01-26 06:12:41,814 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:41,825 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:42,810 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:42,818 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:43,147 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:43,155 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:43,244 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:43,265 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:43,998 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:44,007 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:44,176 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:44,185 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:44,358 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:44,367 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:12:44,501 [DEBUG] persons.views: []
+2016-01-26 06:12:44,519 [DEBUG] persons.views: []
+2016-01-26 06:13:38,432 [DEBUG] persons.views: []
+2016-01-26 06:13:38,446 [DEBUG] persons.views: []
+2016-01-26 06:13:39,144 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:13:39,153 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:14:47,348 [DEBUG] persons.views: []
+2016-01-26 06:14:47,364 [DEBUG] persons.views: []
+2016-01-26 06:14:48,196 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:14:48,205 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:14:48,351 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:14:48,359 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:14:51,551 [DEBUG] persons.views: []
+2016-01-26 06:14:51,565 [DEBUG] persons.views: []
+2016-01-26 06:27:55,402 [DEBUG] persons.views: []
+2016-01-26 06:27:55,415 [DEBUG] persons.views: []
+2016-01-26 06:27:55,908 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:27:55,917 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:27:59,557 [DEBUG] persons.views: []
+2016-01-26 06:27:59,571 [DEBUG] persons.views: []
+2016-01-26 06:32:58,389 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7ff9646ebbd0>
+2016-01-26 06:32:58,389 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7ff9646eb790>
+2016-01-26 06:32:58,381 [DEBUG] persons.views: []
+2016-01-26 06:32:58,464 [DEBUG] persons.views: []
+2016-01-26 06:32:58,776 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:32:58,785 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:00,080 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:00,089 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:00,277 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:00,287 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:00,361 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:00,370 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:33:05,246 [DEBUG] persons.views: []
+2016-01-26 06:33:05,259 [DEBUG] persons.views: []
+2016-01-26 06:33:05,413 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 06:33:05,423 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 06:33:07,022 [DEBUG] persons.views: []
+2016-01-26 06:33:07,036 [DEBUG] persons.views: []
+2016-01-26 06:38:24,657 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f752e3a4b10>
+2016-01-26 06:38:24,658 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f752e3a47d0>
+2016-01-26 06:38:24,727 [DEBUG] persons.views: []
+2016-01-26 06:38:24,739 [DEBUG] persons.views: []
+2016-01-26 06:38:24,740 [DEBUG] persons.views: []
+2016-01-26 06:38:26,057 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:38:26,057 [DEBUG] persons.views: [None]
+2016-01-26 06:38:26,058 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:39,425 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f78e0200090>
+2016-01-26 06:54:39,425 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f78e0200f90>
+2016-01-26 06:54:39,493 [DEBUG] persons.views: []
+2016-01-26 06:54:39,505 [DEBUG] persons.views: []
+2016-01-26 06:54:39,505 [DEBUG] persons.views: []
+2016-01-26 06:54:40,274 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:40,274 [DEBUG] persons.views: [None]
+2016-01-26 06:54:40,275 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:42,112 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:42,112 [DEBUG] persons.views: [None]
+2016-01-26 06:54:42,113 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:42,795 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:42,795 [DEBUG] persons.views: [None]
+2016-01-26 06:54:42,796 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:42,822 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 06:54:42,822 [DEBUG] persons.views: [None]
+2016-01-26 06:54:42,823 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:05,776 [DEBUG] persons.search_indexes: <haystack.fields.CharField object at 0x7f85123892d0>
+2016-01-26 07:06:05,776 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f8512389050>
+2016-01-26 07:06:05,846 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:05,847 [DEBUG] persons.views: [None]
+2016-01-26 07:06:05,847 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:05,950 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:05,951 [DEBUG] persons.views: [None]
+2016-01-26 07:06:05,952 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:06,082 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:06,083 [DEBUG] persons.views: [None]
+2016-01-26 07:06:06,083 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:06,271 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:06,271 [DEBUG] persons.views: [None]
+2016-01-26 07:06:06,272 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:06,363 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:06,364 [DEBUG] persons.views: [None]
+2016-01-26 07:06:06,364 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:09,962 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:09,963 [DEBUG] persons.views: [None]
+2016-01-26 07:06:09,963 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:10,138 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:10,138 [DEBUG] persons.views: [None]
+2016-01-26 07:06:10,139 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:10,299 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:10,299 [DEBUG] persons.views: [None]
+2016-01-26 07:06:10,300 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:10,470 [DEBUG] persons.views: []
+2016-01-26 07:06:10,483 [DEBUG] persons.views: []
+2016-01-26 07:06:10,483 [DEBUG] persons.views: []
+2016-01-26 07:06:42,629 [DEBUG] persons.views: []
+2016-01-26 07:06:42,641 [DEBUG] persons.views: []
+2016-01-26 07:06:42,641 [DEBUG] persons.views: []
+2016-01-26 07:06:44,337 [DEBUG] persons.views: []
+2016-01-26 07:06:44,349 [DEBUG] persons.views: []
+2016-01-26 07:06:44,349 [DEBUG] persons.views: []
+2016-01-26 07:06:45,276 [DEBUG] persons.views: []
+2016-01-26 07:06:45,288 [DEBUG] persons.views: []
+2016-01-26 07:06:45,289 [DEBUG] persons.views: []
+2016-01-26 07:06:45,485 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:45,486 [DEBUG] persons.views: [None]
+2016-01-26 07:06:45,486 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:46,218 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:46,218 [DEBUG] persons.views: [None]
+2016-01-26 07:06:46,218 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:47,702 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:47,703 [DEBUG] persons.views: [None]
+2016-01-26 07:06:47,703 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:06:47,891 [DEBUG] persons.views: []
+2016-01-26 07:06:47,903 [DEBUG] persons.views: []
+2016-01-26 07:06:47,904 [DEBUG] persons.views: []
+2016-01-26 07:07:35,036 [DEBUG] persons.views: []
+2016-01-26 07:07:35,049 [DEBUG] persons.views: []
+2016-01-26 07:07:35,050 [DEBUG] persons.views: []
+2016-01-26 07:07:35,226 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:35,227 [DEBUG] persons.views: [None]
+2016-01-26 07:07:35,228 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:36,195 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:36,195 [DEBUG] persons.views: [None]
+2016-01-26 07:07:36,195 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:36,441 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:36,441 [DEBUG] persons.views: [None]
+2016-01-26 07:07:36,442 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:36,534 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:07:36,534 [DEBUG] persons.views: [None]
+2016-01-26 07:07:36,535 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:51,784 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7fbb90377390>
+2016-01-26 07:08:51,776 [DEBUG] persons.views: []
+2016-01-26 07:08:51,859 [DEBUG] persons.views: []
+2016-01-26 07:08:52,608 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:52,616 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:54,113 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:54,121 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:54,269 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:54,279 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:54,364 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:08:54,378 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:44,641 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:44,650 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:44,796 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:44,808 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:45,696 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:45,705 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:45,825 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:45,834 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:45,917 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:09:45,929 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:11:34,416 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7ff5556cbe50>
+2016-01-26 07:11:45,729 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f7840327dd0>
+2016-01-26 07:11:45,723 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:11:45,800 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:11:46,233 [DEBUG] persons.views: []
+2016-01-26 07:11:46,247 [DEBUG] persons.views: []
+2016-01-26 07:11:46,261 [DEBUG] persons.views: []
+2016-01-26 07:11:46,315 [DEBUG] persons.views: []
+2016-01-26 07:11:47,175 [DEBUG] persons.views: []
+2016-01-26 07:11:47,188 [DEBUG] persons.views: []
+2016-01-26 07:11:48,099 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:11:48,107 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:11:48,199 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:11:48,210 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:00,159 [DEBUG] persons.views: []
+2016-01-26 07:14:00,178 [DEBUG] persons.views: []
+2016-01-26 07:14:00,204 [DEBUG] persons.views: []
+2016-01-26 07:14:00,226 [DEBUG] persons.views: []
+2016-01-26 07:14:01,099 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:01,108 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:01,226 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:01,235 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:01,300 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:01,315 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:43,724 [DEBUG] persons.views: []
+2016-01-26 07:14:43,738 [DEBUG] persons.views: []
+2016-01-26 07:14:43,784 [DEBUG] persons.views: []
+2016-01-26 07:14:43,806 [DEBUG] persons.views: []
+2016-01-26 07:14:46,136 [DEBUG] persons.views: []
+2016-01-26 07:14:46,152 [DEBUG] persons.views: []
+2016-01-26 07:14:46,934 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:46,943 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:47,001 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:14:47,010 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 07:15:45,686 [DEBUG] persons.views: []
+2016-01-26 07:15:45,703 [DEBUG] persons.views: []
+2016-01-26 07:15:45,746 [DEBUG] persons.views: []
+2016-01-26 07:15:45,769 [DEBUG] persons.views: []
+2016-01-26 07:15:46,023 [DEBUG] persons.views: []
+2016-01-26 07:15:46,037 [DEBUG] persons.views: []
+2016-01-26 07:15:48,391 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:15:48,400 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:15:48,870 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:15:48,881 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:15:49,313 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:15:49,329 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:16:06,448 [DEBUG] persons.views: []
+2016-01-26 07:16:06,461 [DEBUG] persons.views: []
+2016-01-26 07:16:06,997 [DEBUG] persons.views: []
+2016-01-26 07:16:07,011 [DEBUG] persons.views: []
+2016-01-26 07:16:08,466 [DEBUG] persons.views: []
+2016-01-26 07:16:08,481 [DEBUG] persons.views: []
+2016-01-26 07:16:09,405 [DEBUG] persons.views: []
+2016-01-26 07:16:09,419 [DEBUG] persons.views: []
+2016-01-26 07:16:10,161 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:16:10,170 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:16:10,236 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:16:10,245 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:16:10,327 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:16:10,336 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:00,926 [DEBUG] persons.views: []
+2016-01-26 07:17:00,940 [DEBUG] persons.views: []
+2016-01-26 07:17:00,967 [DEBUG] persons.views: []
+2016-01-26 07:17:00,985 [DEBUG] persons.views: []
+2016-01-26 07:17:01,263 [DEBUG] persons.views: []
+2016-01-26 07:17:01,283 [DEBUG] persons.views: []
+2016-01-26 07:17:01,507 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:01,515 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:01,911 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:01,920 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:02,051 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:02,060 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:03,571 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:03,579 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:03,768 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:03,778 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:03,996 [DEBUG] persons.views: []
+2016-01-26 07:17:04,010 [DEBUG] persons.views: []
+2016-01-26 07:17:04,220 [DEBUG] persons.views: []
+2016-01-26 07:17:04,235 [DEBUG] persons.views: []
+2016-01-26 07:17:19,765 [DEBUG] persons.views: []
+2016-01-26 07:17:19,781 [DEBUG] persons.views: []
+2016-01-26 07:17:20,557 [DEBUG] persons.views: []
+2016-01-26 07:17:20,573 [DEBUG] persons.views: []
+2016-01-26 07:17:21,590 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:21,599 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:22,049 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:22,057 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:22,092 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:17:22,102 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 07:18:58,232 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7fda319b9350>
+2016-01-26 07:18:58,312 [DEBUG] persons.views: []
+2016-01-26 07:18:58,326 [DEBUG] persons.views: []
+2016-01-26 07:18:58,328 [DEBUG] persons.views: []
+2016-01-26 07:18:58,390 [DEBUG] persons.views: []
+2016-01-26 07:18:58,418 [DEBUG] persons.views: []
+2016-01-26 07:18:58,418 [DEBUG] persons.views: []
+2016-01-26 08:38:18,659 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f2e524e5f10>
+2016-01-26 08:38:18,865 [DEBUG] persons.views: []
+2016-01-26 08:38:18,876 [DEBUG] persons.views: []
+2016-01-26 08:38:18,892 [DEBUG] persons.views: []
+2016-01-26 08:38:18,895 [DEBUG] persons.views: []
+2016-01-26 08:38:18,895 [DEBUG] persons.views: []
+2016-01-26 08:38:18,896 [DEBUG] persons.views: []
+2016-01-26 08:39:43,894 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f0d74bef310>
+2016-01-26 08:39:43,888 [DEBUG] persons.views: []
+2016-01-26 08:39:43,947 [DEBUG] persons.views: []
+2016-01-26 08:39:44,543 [DEBUG] persons.views: []
+2016-01-26 08:39:44,557 [DEBUG] persons.views: []
+2016-01-26 08:39:45,497 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 08:39:45,504 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 08:39:45,688 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 08:39:45,697 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'2')>]
+2016-01-26 08:42:06,936 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f1e6e973610>
+2016-01-26 08:42:06,932 [DEBUG] persons.views: []
+2016-01-26 08:42:06,985 [DEBUG] persons.views: []
+2016-01-26 08:42:08,132 [DEBUG] persons.views: []
+2016-01-26 08:42:08,142 [DEBUG] persons.views: []
+2016-01-26 08:42:09,680 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:42:09,685 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:42:49,562 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f3f100eaf10>
+2016-01-26 08:42:49,611 [DEBUG] persons.views: []
+2016-01-26 08:42:49,617 [DEBUG] persons.views: []
+2016-01-26 08:42:49,617 [DEBUG] persons.views: []
+2016-01-26 08:42:50,332 [DEBUG] persons.views: []
+2016-01-26 08:42:50,340 [DEBUG] persons.views: []
+2016-01-26 08:42:50,341 [DEBUG] persons.views: []
+2016-01-26 08:52:28,276 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:28,277 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:28,277 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:28,938 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:28,938 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:28,938 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:31,396 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:31,397 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:31,397 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:31,480 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:31,480 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:31,480 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:31,550 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:31,550 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:31,550 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:33,558 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:33,558 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:33,558 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:33,780 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:33,780 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:33,780 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:33,929 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:33,929 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:33,929 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:34,109 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:34,109 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:34,109 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:34,304 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:52:34,304 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:52:34,304 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:15,198 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:15,199 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:54:15,199 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:19,743 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:19,743 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:54:19,743 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:20,399 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:20,399 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:54:20,400 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:20,539 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:20,539 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:54:20,540 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:20,584 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:20,584 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:54:20,585 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:57,350 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:54:57,350 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:54:57,350 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:06,975 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:06,976 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:55:06,976 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:07,052 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:07,052 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:55:07,053 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:13,581 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:13,581 [DEBUG] persons.views: [u'/persons/get/1/', u'/persons/get/2/', u'/persons/get/3/']
+2016-01-26 08:55:13,582 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>]
+2016-01-26 08:55:58,544 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f697a06fb10>
+2016-01-26 08:55:58,592 [DEBUG] persons.views: []
+2016-01-26 08:55:58,598 [DEBUG] persons.views: []
+2016-01-26 08:55:58,598 [DEBUG] persons.views: []
+2016-01-26 08:56:00,564 [DEBUG] persons.views: []
+2016-01-26 08:56:00,570 [DEBUG] persons.views: []
+2016-01-26 08:56:00,570 [DEBUG] persons.views: []
+2016-01-26 08:56:43,894 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f87757a8310>
+2016-01-26 08:56:43,943 [DEBUG] persons.views: []
+2016-01-26 08:56:43,950 [DEBUG] persons.views: []
+2016-01-26 08:56:43,950 [DEBUG] persons.views: []
+2016-01-26 08:56:44,528 [DEBUG] persons.views: []
+2016-01-26 08:56:44,534 [DEBUG] persons.views: []
+2016-01-26 08:56:44,535 [DEBUG] persons.views: []
+2016-01-26 08:56:45,889 [DEBUG] persons.views: []
+2016-01-26 08:56:45,901 [DEBUG] persons.views: []
+2016-01-26 08:56:45,902 [DEBUG] persons.views: []
+2016-01-26 08:56:46,251 [DEBUG] persons.views: []
+2016-01-26 08:56:46,262 [DEBUG] persons.views: []
+2016-01-26 08:56:46,263 [DEBUG] persons.views: []
+2016-01-26 08:56:46,315 [DEBUG] persons.views: []
+2016-01-26 08:56:46,323 [DEBUG] persons.views: []
+2016-01-26 08:56:46,324 [DEBUG] persons.views: []
+2016-01-26 08:58:21,539 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f4855891710>
+2016-01-26 08:58:21,589 [DEBUG] persons.views: []
+2016-01-26 08:58:22,104 [DEBUG] persons.views: []
+2016-01-26 08:58:23,664 [DEBUG] persons.views: []
+2016-01-26 08:58:24,107 [DEBUG] persons.views: []
+2016-01-26 08:58:25,236 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:58:25,270 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:58:25,375 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:59:22,302 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f8b42b090d0>
+2016-01-26 08:59:22,353 [DEBUG] persons.views: []
+2016-01-26 08:59:22,650 [DEBUG] persons.views: []
+2016-01-26 08:59:23,677 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:59:23,739 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 08:59:23,819 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:09:45,521 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7ff60101c290>
+2016-01-26 09:09:45,567 [DEBUG] persons.views: []
+2016-01-26 09:09:45,568 [DEBUG] persons.views: []
+2016-01-26 09:09:45,937 [DEBUG] persons.views: []
+2016-01-26 09:09:45,937 [DEBUG] persons.views: []
+2016-01-26 09:09:47,738 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:09:47,739 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:09:47,791 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:09:47,791 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:09:47,860 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:09:47,860 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:17,933 [DEBUG] persons.views: []
+2016-01-26 09:10:17,934 [DEBUG] persons.views: []
+2016-01-26 09:10:18,271 [DEBUG] persons.views: []
+2016-01-26 09:10:18,272 [DEBUG] persons.views: []
+2016-01-26 09:10:19,455 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:19,455 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:19,698 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:19,698 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:19,754 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:19,754 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:20,825 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:20,826 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:21,020 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:21,020 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:10:21,215 [DEBUG] persons.views: []
+2016-01-26 09:10:21,215 [DEBUG] persons.views: []
+2016-01-26 09:10:21,374 [DEBUG] persons.views: []
+2016-01-26 09:10:21,374 [DEBUG] persons.views: []
+2016-01-26 09:11:11,448 [DEBUG] persons.views: []
+2016-01-26 09:11:11,448 [DEBUG] persons.views: []
+2016-01-26 09:11:11,593 [DEBUG] persons.views: []
+2016-01-26 09:11:11,594 [DEBUG] persons.views: []
+2016-01-26 09:11:11,648 [DEBUG] persons.views: []
+2016-01-26 09:11:11,648 [DEBUG] persons.views: []
+2016-01-26 09:11:12,432 [DEBUG] persons.views: []
+2016-01-26 09:11:12,433 [DEBUG] persons.views: []
+2016-01-26 09:11:12,662 [DEBUG] persons.views: []
+2016-01-26 09:11:12,663 [DEBUG] persons.views: []
+2016-01-26 09:11:12,719 [DEBUG] persons.views: []
+2016-01-26 09:11:12,720 [DEBUG] persons.views: []
+2016-01-26 09:11:13,029 [DEBUG] persons.views: []
+2016-01-26 09:11:13,030 [DEBUG] persons.views: []
+2016-01-26 09:11:13,190 [DEBUG] persons.views: []
+2016-01-26 09:11:13,190 [DEBUG] persons.views: []
+2016-01-26 09:11:13,350 [DEBUG] persons.views: []
+2016-01-26 09:11:13,350 [DEBUG] persons.views: []
+2016-01-26 09:11:13,527 [DEBUG] persons.views: []
+2016-01-26 09:11:13,527 [DEBUG] persons.views: []
+2016-01-26 09:11:13,687 [DEBUG] persons.views: []
+2016-01-26 09:11:13,688 [DEBUG] persons.views: []
+2016-01-26 09:11:14,279 [DEBUG] persons.views: []
+2016-01-26 09:11:14,279 [DEBUG] persons.views: []
+2016-01-26 09:11:14,874 [DEBUG] persons.views: []
+2016-01-26 09:11:14,874 [DEBUG] persons.views: []
+2016-01-26 09:11:15,199 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:11:15,199 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:11:15,457 [DEBUG] persons.views: []
+2016-01-26 09:11:15,458 [DEBUG] persons.views: []
+2016-01-26 09:11:15,625 [DEBUG] persons.views: []
+2016-01-26 09:11:15,625 [DEBUG] persons.views: []
+2016-01-26 09:11:16,875 [DEBUG] persons.views: []
+2016-01-26 09:11:16,875 [DEBUG] persons.views: []
+2016-01-26 09:11:17,012 [DEBUG] persons.views: []
+2016-01-26 09:11:17,012 [DEBUG] persons.views: []
+2016-01-26 09:11:17,206 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:11:17,206 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:11:17,374 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:11:17,375 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:11:17,437 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:11:17,437 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:21,282 [DEBUG] persons.views: []
+2016-01-26 09:13:21,282 [DEBUG] persons.views: []
+2016-01-26 09:13:21,819 [DEBUG] persons.views: []
+2016-01-26 09:13:21,820 [DEBUG] persons.views: []
+2016-01-26 09:13:23,052 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:23,053 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:23,816 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:23,816 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:23,843 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:23,843 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>]
+2016-01-26 09:13:41,488 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7fc4416dbe50>
+2016-01-26 09:13:50,938 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f4800296450>
+2016-01-26 09:13:50,991 [DEBUG] persons.views: []
+2016-01-26 09:13:50,992 [DEBUG] persons.views: []
+2016-01-26 09:13:51,374 [DEBUG] persons.views: []
+2016-01-26 09:13:51,374 [DEBUG] persons.views: []
+2016-01-26 09:13:52,595 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:13:52,596 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:13:53,321 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:13:53,321 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:13:53,356 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:13:53,356 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:02,726 [DEBUG] persons.views: []
+2016-01-26 09:25:02,726 [DEBUG] persons.views: []
+2016-01-26 09:25:03,058 [DEBUG] persons.views: []
+2016-01-26 09:25:03,059 [DEBUG] persons.views: []
+2016-01-26 09:25:04,108 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:04,108 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:04,218 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:04,218 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:04,295 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:04,295 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:06,206 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:25:06,207 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:26:51,120 [DEBUG] persons.views: []
+2016-01-26 09:26:51,121 [DEBUG] persons.views: []
+2016-01-26 09:26:51,699 [DEBUG] persons.views: []
+2016-01-26 09:26:51,699 [DEBUG] persons.views: []
+2016-01-26 09:26:52,887 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:26:52,887 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:26:53,623 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:26:53,624 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:26:53,670 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:26:53,670 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:28:51,416 [DEBUG] persons.views: []
+2016-01-26 09:28:51,416 [DEBUG] persons.views: []
+2016-01-26 09:28:51,747 [DEBUG] persons.views: []
+2016-01-26 09:28:51,747 [DEBUG] persons.views: []
+2016-01-26 09:28:52,415 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:28:52,416 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:28:52,481 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:28:52,482 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:28:52,521 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:28:52,521 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:22,268 [DEBUG] persons.views: []
+2016-01-26 09:29:22,268 [DEBUG] persons.views: []
+2016-01-26 09:29:22,632 [DEBUG] persons.views: []
+2016-01-26 09:29:22,633 [DEBUG] persons.views: []
+2016-01-26 09:29:23,491 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:23,492 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:23,617 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:23,617 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:23,685 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:23,686 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:29:51,022 [DEBUG] persons.views: []
+2016-01-26 09:29:51,023 [DEBUG] persons.views: []
+2016-01-26 09:29:51,587 [DEBUG] persons.views: []
+2016-01-26 09:29:51,587 [DEBUG] persons.views: []
+2016-01-26 09:29:52,328 [DEBUG] persons.views: []
+2016-01-26 09:29:52,329 [DEBUG] persons.views: []
+2016-01-26 09:29:53,176 [DEBUG] persons.views: []
+2016-01-26 09:29:53,176 [DEBUG] persons.views: []
+2016-01-26 09:29:53,371 [DEBUG] persons.views: []
+2016-01-26 09:29:53,372 [DEBUG] persons.views: []
+2016-01-26 09:29:56,422 [DEBUG] persons.views: []
+2016-01-26 09:29:56,423 [DEBUG] persons.views: []
+2016-01-26 09:29:56,661 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:56,662 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:56,780 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:56,780 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:57,034 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:57,034 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:57,157 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:29:57,157 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:30:00,433 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:30:00,434 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'1')>]
+2016-01-26 09:30:00,690 [DEBUG] persons.views: []
+2016-01-26 09:30:00,691 [DEBUG] persons.views: []
+2016-01-26 09:30:00,961 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:00,961 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,067 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,067 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,322 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,322 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,400 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,401 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,721 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,721 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,904 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:01,904 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:03,275 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:03,275 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:03,679 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:03,679 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:03,856 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:03,856 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:04,055 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:04,055 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:04,235 [DEBUG] persons.views: []
+2016-01-26 09:30:04,235 [DEBUG] persons.views: []
+2016-01-26 09:30:04,429 [DEBUG] persons.views: []
+2016-01-26 09:30:04,430 [DEBUG] persons.views: []
+2016-01-26 09:30:28,329 [DEBUG] persons.views: []
+2016-01-26 09:30:28,330 [DEBUG] persons.views: []
+2016-01-26 09:30:28,854 [DEBUG] persons.views: []
+2016-01-26 09:30:28,854 [DEBUG] persons.views: []
+2016-01-26 09:30:30,612 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:30,612 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:30,937 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:30,937 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:31,021 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:30:31,021 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:32,282 [DEBUG] persons.views: []
+2016-01-26 09:33:32,282 [DEBUG] persons.views: []
+2016-01-26 09:33:32,859 [DEBUG] persons.views: []
+2016-01-26 09:33:32,859 [DEBUG] persons.views: []
+2016-01-26 09:33:34,168 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:34,169 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:34,446 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:34,446 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:34,493 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:34,494 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:56,735 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:56,735 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'3')>, <SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:57,041 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:33:57,042 [DEBUG] persons.views: [<SearchResult: persons.persons (pk=u'4')>]
+2016-01-26 09:40:05,742 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:05,742 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:07,409 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:07,410 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:08,774 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:08,774 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:08,911 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:08,912 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:08,999 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:08,999 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:23,698 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:23,698 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:40:24,034 [DEBUG] persons.views: [<Persons: Natesha>]
+2016-01-26 09:40:24,034 [DEBUG] persons.views: [<Persons: Natesha>]
+2016-01-26 09:41:10,603 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:41:10,604 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:01,545 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:01,545 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:05,357 [DEBUG] persons.views: [<Persons: Anshu>]
+2016-01-26 09:42:05,357 [DEBUG] persons.views: [<Persons: Anshu>]
+2016-01-26 09:42:07,684 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:07,684 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:10,316 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:10,316 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:34,394 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:34,394 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:35,127 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:35,128 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:35,266 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:35,267 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:35,362 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:35,362 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:46,482 [DEBUG] persons.views: []
+2016-01-26 09:42:46,482 [DEBUG] persons.views: []
+2016-01-26 09:42:46,565 [DEBUG] persons.views: []
+2016-01-26 09:42:46,565 [DEBUG] persons.views: []
+2016-01-26 09:42:47,214 [DEBUG] persons.views: []
+2016-01-26 09:42:47,215 [DEBUG] persons.views: []
+2016-01-26 09:42:47,294 [DEBUG] persons.views: []
+2016-01-26 09:42:47,294 [DEBUG] persons.views: []
+2016-01-26 09:42:47,634 [DEBUG] persons.views: []
+2016-01-26 09:42:47,634 [DEBUG] persons.views: []
+2016-01-26 09:42:47,806 [DEBUG] persons.views: []
+2016-01-26 09:42:47,807 [DEBUG] persons.views: []
+2016-01-26 09:42:47,970 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:47,971 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:48,179 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:48,179 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:42:49,513 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:49,513 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:49,628 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:49,628 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:50,178 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:50,178 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:50,359 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:50,359 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:50,419 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:42:50,420 [DEBUG] persons.views: [<Persons: Jude>]
+2016-01-26 09:43:09,531 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:09,532 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:09,864 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:09,865 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:10,526 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:10,526 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:10,589 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:10,590 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:10,608 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 09:43:10,608 [DEBUG] persons.views: [<Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:30:41,656 [DEBUG] persons.search_indexes: <haystack.fields.NgramField object at 0x7f5647eef050>
+2016-01-26 12:30:59,107 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:30:59,108 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:02,199 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-26 12:31:02,199 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-26 12:31:03,171 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:31:03,172 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:31:03,271 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:31:03,271 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:31:03,811 [DEBUG] persons.views: []
+2016-01-26 12:31:03,812 [DEBUG] persons.views: []
+2016-01-26 12:31:04,430 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:31:04,430 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-26 12:31:04,649 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-26 12:31:04,650 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-26 12:31:06,992 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-26 12:31:06,992 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-26 12:31:07,041 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-26 12:31:07,042 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-26 12:31:07,906 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-26 12:31:07,906 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-26 12:31:16,673 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:16,674 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:16,736 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:16,736 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:17,045 [DEBUG] persons.views: []
+2016-01-26 12:31:17,045 [DEBUG] persons.views: []
+2016-01-26 12:31:17,717 [DEBUG] persons.views: []
+2016-01-26 12:31:17,717 [DEBUG] persons.views: []
+2016-01-26 12:31:17,836 [DEBUG] persons.views: []
+2016-01-26 12:31:17,836 [DEBUG] persons.views: []
+2016-01-26 12:31:18,541 [DEBUG] persons.views: []
+2016-01-26 12:31:18,541 [DEBUG] persons.views: []
+2016-01-26 12:31:18,699 [DEBUG] persons.views: []
+2016-01-26 12:31:18,699 [DEBUG] persons.views: []
+2016-01-26 12:31:18,871 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:18,871 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:20,172 [DEBUG] persons.views: []
+2016-01-26 12:31:20,172 [DEBUG] persons.views: []
+2016-01-26 12:31:20,287 [DEBUG] persons.views: []
+2016-01-26 12:31:20,287 [DEBUG] persons.views: []
+2016-01-26 12:31:20,366 [DEBUG] persons.views: []
+2016-01-26 12:31:20,389 [DEBUG] persons.views: []
+2016-01-26 12:31:21,755 [DEBUG] persons.views: []
+2016-01-26 12:31:21,755 [DEBUG] persons.views: []
+2016-01-26 12:31:21,997 [DEBUG] persons.views: []
+2016-01-26 12:31:21,997 [DEBUG] persons.views: []
+2016-01-26 12:31:22,378 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:31:22,378 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:44,410 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:44,410 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:44,698 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:44,698 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:46,042 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:46,042 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>]
+2016-01-26 12:37:46,240 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-26 12:37:46,240 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-29 17:37:54,105 [DEBUG] notification.views: 1
+2016-01-29 17:37:54,136 [DEBUG] notification.views: Notification object
+2016-01-29 17:37:54,136 [DEBUG] notification.views: Notification object
+2016-01-29 18:00:02,767 [DEBUG] notification.views: 1
+2016-01-29 18:00:02,771 [DEBUG] notification.views: Notification object
+2016-01-29 18:00:02,771 [DEBUG] notification.views: Notification object
+2016-01-29 18:00:39,246 [DEBUG] notification.views: 1
+2016-01-29 18:00:39,250 [DEBUG] notification.views: Notification object
+2016-01-29 18:00:39,250 [DEBUG] notification.views: Notification object
+2016-01-29 18:01:57,252 [DEBUG] notification.views: 1
+2016-01-29 18:03:51,600 [DEBUG] notification.views: 1
+2016-01-29 18:03:54,776 [DEBUG] notification.views: 1
+2016-01-29 18:04:24,260 [DEBUG] notification.views: 1
+2016-01-29 18:04:24,266 [DEBUG] notification.views: You are going
+2016-01-29 18:04:24,266 [DEBUG] notification.views: Notification object
+2016-01-29 18:05:42,008 [DEBUG] notification.views: 1
+2016-01-29 18:05:42,012 [DEBUG] notification.views: You are going
+2016-01-29 18:05:42,015 [DEBUG] notification.views: bala
+2016-01-29 18:05:48,918 [DEBUG] notification.views: 1
+2016-01-29 18:05:48,924 [DEBUG] notification.views: You are going
+2016-01-29 18:05:48,927 [DEBUG] notification.views: bala
+2016-01-29 18:06:28,178 [DEBUG] notification.views: 1
+2016-01-29 18:06:28,182 [DEBUG] notification.views: You are going
+2016-01-29 18:06:28,185 [DEBUG] notification.views: bala
+2016-01-29 18:41:24,044 [DEBUG] notification.views: 1
+2016-01-29 18:41:24,048 [DEBUG] notification.views: You are going
+2016-01-29 18:41:24,051 [DEBUG] notification.views: bala
+2016-01-29 18:44:03,695 [DEBUG] notification.views: 1
+2016-01-29 18:44:03,700 [DEBUG] notification.views: You are going
+2016-01-29 18:44:03,704 [DEBUG] notification.views: bala
+2016-01-29 18:46:08,429 [DEBUG] notification.views: 1
+2016-01-29 18:46:08,433 [DEBUG] notification.views: You are going
+2016-01-29 18:46:08,437 [DEBUG] notification.views: bala
+2016-01-30 04:21:24,918 [DEBUG] notification.views: 1
+2016-01-30 04:21:24,922 [DEBUG] notification.views: You are going
+2016-01-30 04:21:24,925 [DEBUG] notification.views: bala
+2016-01-30 04:22:11,396 [DEBUG] notification.views: 1
+2016-01-30 04:22:11,400 [DEBUG] notification.views: You are going
+2016-01-30 04:22:11,402 [DEBUG] notification.views: bala
+2016-01-30 04:22:51,816 [DEBUG] notification.views: 1
+2016-01-30 04:22:51,819 [DEBUG] notification.views: You are going
+2016-01-30 04:22:51,821 [DEBUG] notification.views: bala
+2016-01-30 04:27:38,860 [DEBUG] notification.views: 1
+2016-01-30 04:27:38,863 [DEBUG] notification.views: You are going
+2016-01-30 04:27:38,865 [DEBUG] notification.views: bala
+2016-01-30 04:27:40,315 [DEBUG] notification.views: 1
+2016-01-30 04:27:40,318 [DEBUG] notification.views: You are going
+2016-01-30 04:27:40,321 [DEBUG] notification.views: bala
+2016-01-30 04:30:57,074 [DEBUG] notification.views: 1
+2016-01-30 04:30:57,080 [DEBUG] notification.views: You are going
+2016-01-30 04:30:57,084 [DEBUG] notification.views: bala
+2016-01-30 04:36:53,841 [DEBUG] notification.views: 3
+2016-01-30 04:36:53,847 [DEBUG] notification.views: Welcome to our Django site!
+2016-01-30 04:36:53,850 [DEBUG] notification.views: sumit
+2016-01-30 04:40:04,121 [DEBUG] notification.views: 1
+2016-01-30 04:40:04,126 [DEBUG] notification.views: You are going
+2016-01-30 04:40:04,134 [DEBUG] notification.views: bala
+2016-01-30 04:41:36,339 [DEBUG] notification.views: 1
+2016-01-30 04:41:36,344 [DEBUG] notification.views: You are going
+2016-01-30 04:41:36,351 [DEBUG] notification.views: bala
+2016-01-30 04:41:45,134 [DEBUG] notification.views: 2
+2016-01-30 04:41:45,138 [DEBUG] notification.views: Welcome to our Django site!
+2016-01-30 04:41:45,142 [DEBUG] notification.views: testbabu
+2016-01-30 04:41:48,560 [DEBUG] notification.views: 2
+2016-01-30 04:42:12,700 [DEBUG] notification.views: 1
+2016-01-30 04:42:12,704 [DEBUG] notification.views: You are going
+2016-01-30 04:42:12,709 [DEBUG] notification.views: bala
+2016-01-30 04:42:14,041 [DEBUG] notification.views: 1
+2016-01-30 11:58:05,715 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 11:58:05,715 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 11:58:07,016 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 11:58:07,016 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 11:58:41,811 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 11:58:41,812 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 11:58:43,021 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 11:58:43,021 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:02:00,217 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:02:00,217 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:02:01,590 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:02:01,591 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:11:02,185 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-30 12:11:02,185 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>]
+2016-01-30 12:11:03,749 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:11:03,749 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:12,279 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:12,295 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:12,445 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:12,446 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:13,703 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:13,703 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:13,911 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:13,911 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:16,633 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:16,633 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:24,017 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:24,017 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:24,188 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,188 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,410 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,410 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,528 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,529 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,806 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:24,806 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:27,532 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:27,532 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:27,706 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:27,707 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:27,895 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:27,896 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 12:14:28,068 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:28,068 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:14:28,258 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:28,258 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:28,428 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:14:28,428 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:20:12,910 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:20:12,911 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:20:15,348 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:20:15,348 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:28:08,451 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:28:08,452 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 12:28:10,068 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:28:10,069 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 12:30:57,804 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 12:30:57,804 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 12:30:57,902 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 12:30:57,902 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 12:30:58,114 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 12:30:58,114 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 13:17:52,504 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 13:17:52,505 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 13:17:56,516 [DEBUG] persons.views: []
+2016-01-30 13:17:56,516 [DEBUG] persons.views: []
+2016-01-30 13:17:57,771 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 13:17:57,772 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 13:17:58,614 [DEBUG] persons.views: []
+2016-01-30 13:17:58,614 [DEBUG] persons.views: []
+2016-01-30 13:17:58,692 [DEBUG] persons.views: []
+2016-01-30 13:17:58,693 [DEBUG] persons.views: []
+2016-01-30 13:17:59,821 [DEBUG] persons.views: []
+2016-01-30 13:17:59,821 [DEBUG] persons.views: []
+2016-01-30 13:18:00,011 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 13:18:00,011 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>]
+2016-01-30 13:18:00,248 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 13:18:00,248 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>]
+2016-01-30 19:16:22,960 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Devendra>]
+2016-01-30 19:16:22,960 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Devendra>]
+2016-01-30 19:16:25,053 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,054 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,544 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,544 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,645 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,645 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,748 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:25,748 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,102 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,102 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,276 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,276 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,425 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,425 [DEBUG] persons.views: [<Persons: Nitin>, <Persons: Nitin>]
+2016-01-30 19:16:27,618 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Devendra>]
+2016-01-30 19:16:27,618 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Devendra>]
+2016-01-30 19:16:27,878 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>]
+2016-01-30 19:16:27,879 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>]
+2016-01-30 19:16:28,709 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>, <Persons: Devendra>]
+2016-01-30 19:16:28,709 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>, <Persons: Devendra>]
+2016-01-30 19:16:29,268 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-30 19:16:29,268 [DEBUG] persons.views: [<Persons: Amtul>]
+2016-01-31 19:25:57,475 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>, <Persons: Devendra>]
+2016-01-31 19:25:57,486 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Amtul>, <Persons: Devendra>]
+2016-02-04 17:02:21,114 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-04 17:02:21,115 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-04 17:02:24,004 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-04 17:02:24,004 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-04 17:02:26,019 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-04 17:02:26,019 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-04 17:02:26,123 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-04 17:02:26,123 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-04 17:02:26,882 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-04 17:02:26,883 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-04 17:02:27,096 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-04 17:02:27,096 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]

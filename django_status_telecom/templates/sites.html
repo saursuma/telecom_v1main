@@ -1,0 +1,150 @@
+<!--<html>
+<body>
+<h1>Persons</h1>-->
+{% extends "index.html" %}
+
+<style type="text/css">
+#map_canvas {display:none;}
+</style>
+
+
+
+
+{% block topbar %}
+
+{% csrf_token %}
+<input type="text" id="search" name="search" />
+<ul id="search-results">
+</ul>
+
+{% endblock %}
+
+{% block content %}
+ <body>
+<div id="googleMap" style="width:1280px;height:300px;"></div>
+</body>
+
+<div class="row">
+           {% if sites.count > 0 %}
+{% for site in sites %}
+         <div class="col-lg-4">
+          
+      <div class="well well-lg">
+               
+                   
+                <h3>{{ site.name}} {{ site.site_id}}
+                    <small>{{ site.description|lower|truncatewords:"10" }}</small>
+                   <small> {{site.latitude}}, {{site.longitude}}</small>
+                    <output type="text" maxlength="3" name="value1" value="{{site.latitude}}" />
+                    <output type="text" maxlength="3" name="value2" value="{{site.longitude}}"/>
+                </h3>
+             
+            <a class="btn btn-primary btn-sm" href="#mapmodals" role="button" onclick="initialize({{site.latitude}},{{site.longitude}});"  data-toggle="modal"><img src="04_maps.png" width="64" height="64" alt="Show on Map" title="click to open Map"></a>
+                    </div>
+             
+            
+                </div>
+     {% endfor %}
+    <hr>
+        </div>   
+
+
+{% else %}
+<div class="col-6 col-sm-6 col-lg-4">
+<p> None to Show!</p>
+    </div>
+{% endif %}
+
+
+
+
+
+
+
+<!--div class="row">
+
+     
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Sites</h2>
+            </div>
+    {% if sites.count > 0 %}
+{% for site in sites %}
+            <div class="col-lg-4 col-sm-6 text-center">
+             
+               
+                <h3>{{ site.name}} {{ site.site_id}}
+                    <small>{{ site.description|lower|truncatewords:"10" }}</small>
+                   <small> {{site.latitude}}, {{site.longitude}}</small>
+                    <output type="text" maxlength="3" name="value1" value="{{site.latitude}}" />
+                    <output type="text" maxlength="3" name="value2" value="{{site.longitude}}"/>
+                </h3>
+             
+            <a class="openmodal" href="#mapmodals" role="button" onclick="initialize({{site.latitude}},{{site.longitude}});"  data-toggle="modal"><img src="04_maps.png" width="64" height="64" alt="Show on Map" title="click to open Map"></a>  
+       
+                
+               
+               
+            </div>
+
+{% endfor %}
+
+<hr>
+
+{% else %}
+<div class="col-6 col-sm-6 col-lg-4">
+<p> None to Show!</p>
+    </div>
+{% endif %}
+</div-->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize(var_lati,var_long,var_contentString) {
+    var myCenter = new google.maps.LatLng(var_lati,var_long);
+  var mapProp = {
+    center: myCenter,
+    zoom:14,
+    panControl:true,
+    rotateControl:true,
+    streetViewControl:true,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+    var var_infowindow = new google.maps.InfoWindow({
+      content: var_contentString
+    });
+    var marker = new google.maps.Marker({
+position:myCenter,
+});
+    marker.setMap(map);
+    
+     google.maps.event.addListener(marker, 'click', function() {
+		  var_infowindow.open(map,marker);
+    });
+    
+    
+  //     $('#mapmodals').on('shown.bs.modal', function() {
+//          google.maps.event.trigger(map, "resize");
+//          map.setCenter(myCenter);
+//      });
+}
+   
+    
+//$(document).on("click", ".openmodal", function(var_lat,var_lon) {
+ //  var var_mapTitle = $(this).data('id');
+    
+    
+//      initialize(var_lat,var_lon,"Collection");
+    
+//    $(".modal-header #title_id").html( var_mapTitle );
+//    $('#mapmodals').modal('show');
+//});    
+
+//google.maps.event.addDomListener(window, 'load', initialize());
+</script>
+
+
+
+
+{% endblock %}
+
