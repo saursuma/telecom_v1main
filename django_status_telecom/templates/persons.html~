@@ -1,0 +1,43 @@
+<!--<html>
+<body>
+<h1>Persons</h1>-->
+{% extends "index.html" %}
+{% person_tags %}
+
+{% block sidebar %}
+<ul>
+	<li><a href="/persons/all">Cancel</a></li>
+	<li><a href="/persons/create">Create Person</a></li>
+</ul>
+
+<h3> Search </h3>
+{% csrf_token %}
+<input type="text" id="search" name="search" />
+<ul id="search-results">
+</ul>
+
+{% endblock %}
+
+{% block content %}
+</h2> Language is: {{language}}</h2>
+
+</h2> Session Language is: {{session_language}}</h2>
+{% if persons.count > 0 %}
+{% for person in persons %}
+<div>
+<h2><a href="/persons/get/{{ person.id }}">{{ person.first_name |upper }}</a></h2>
+<p> {{ person.address|lower|truncatewords:"10" }}</p>
+<p> {{ person.like}} people liked this article</p>
+</div>
+
+{% endfor %}
+
+
+
+{% else %}
+<p> None to Show!</p>
+{% endif %} 
+
+{% endblock %}
+<!--</body>
+</html>-->

@@ -1,0 +1,189 @@
+{% load static %}
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Scrum</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <!--link rel="stylesheet" type="text/css" href="{% static "assets/css/style.css" %}"/-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script src="{% static "assets/js/jquery-2.0.0.min.js" %}"></script>
+  <!--script type="text/javascript" src="js/modernizr-1.5.min.js"></script-->
+  <script src="{% static "assets/js/ajax.js" %}"></script>
+  <!--script src="{% static "assets/js/jquery.min.js" %}"></script-->
+  
+  <!--script src="{% static "assets/js/image_slide.js" %}"></script-->
+    <style type="text/css">
+	body{ padding-top: 60px;}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Status App</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+	<ul class="nav navbar-nav">
+	<li class="inactive"><a href="{% url 'persons.views.persons' %}">Home</a></li>
+	<li class="inactive"><a href="/accounts/register/">Register</a></li>
+	
+	<li class="inactive"><a href="/admin/">Admin</a></li>
+    <li class="inactive"><a href="/contact/">Contact</a></li>
+	<li class="inactive"><a href="/accounts/logout/">Logout</a></li>
+
+	
+</ul>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                     <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        {% block topbar %} This is the content area{% endblock %}
+                    </li>
+                    <li class="page-scroll">
+                        <li><a href="/persons/create"  class="navbar-right">Create Persons </a></li>
+                    </li>
+                <li class="page-scroll">
+                        <li><a href="/persons/create/site/"  class="navbar-left">Create Site</a></li>
+                    </li>
+            <li class="page-scroll">
+                        <li><a href="/persons/create/task/"  class="navbar-left">Create Task</a></li>
+                    </li>
+          <li class="page-scroll">
+                        <li><a href="/persons/all/tasks/"  class="navbar-left">All Task</a></li>
+                    </li>
+            <li class="page-scroll">
+                        <li><a href="/persons/all/sites/"  class="navbar-left">All Site</a></li>
+                    </li>
+                   
+                </ul>
+            </div>
+            
+        
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+  <div id="main">		
+
+    <!--header>
+	  <div id="strapline">
+	    <div id="welcome_slogan">
+	      <h3>Status Update<span>Scrum</span></h3>
+	    </div>
+      </div> 
+	  <nav>
+	    <div id="menubar">
+          <ul id="nav">
+            <li class="current"><a href="/persons/all">Home</a></li>
+            <li><a href="/accounts/register/">Register</a></li>
+            <li><a href="/accounts/login/">Login</a></li>
+	    <li><a href="/admin/">Administrator</a></li>
+ 	    <li><a href="/contact/">Contact US</a></li>
+            <li> <a href="/accounts/logout/">Logout</a></li>
+           </ul>
+        </div>
+      </nav>
+    </header-->
+    
+    <!--div id="slideshow_container">  
+	  <div class="slideshow">
+	    <ul class="slideshow"-->
+          <!--li class="show"><img width="240" height="250" src="{% static "assets/images/scrum.png" %}" alt="&quot;Enter your caption here&quot;" /></li>
+          <li><img width="240" height="250" src="assets/images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+        </ul--> 
+	  <!--/div><!--close slideshow>  	
+	</div><close slideshow_container-->   
+	
+	<div id="site_content">		
+	 
+	  <div class="sidebar_container">       
+		<!--div class="sidebar">
+          <div class="sidebar_item">
+{% block sidebar %}
+		<ul>
+			<li> <a href="/persons/all">Persons</a></li>
+			<li> <a href="/admin/">Admin</a></li>
+                        
+		</ul>
+		{% endblock %}
+            <h2>Team Collaboration Application</h2>
+            
+          </div>
+        </div>   		
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Update</h2>
+                   
+		  </div>
+        </div>
+		<div class="sidebar">
+          <div class="sidebar_item">
+                  
+		  </div>
+        </div> 		
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            
+          </div>
+        </div-->
+       </div><!--close sidebar_container-->	
+	   
+	  <div id="content">
+
+
+{% if messages %}
+	<ul class="messages">
+	    {% for message in messages %}
+	    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+
+		
+        <div class="content_item">
+            
+		  <h1>Teams Management</h1>
+            
+         {% block content %} This is the content area{% endblock %}
+	  
+		  
+         	
+		  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content-->  	
+
+    <!--footer>
+	  <a href="index.html">Home</a> | <a href="ourwork.html">Our Work</a> | <a href="testimonials.html">Testimonials</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact</a><br/><br/>
+	  <a href="http://fotogrph.com">Images</a> |  <a href="http://www.heartinternet.co.uk/vps/">Virtual Server</a>  | website template by <a href="http://www.freehtml5templates.co.uk">Free HTML5 Templates</a>
+    </footer-->
+	
+  </div><!--close main-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

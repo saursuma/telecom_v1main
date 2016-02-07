@@ -1,0 +1,97 @@
+<!--<html>
+<body>-->
+{% extends "index.html" %}
+
+ <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="../dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<div id="page-wrapper">
+
+
+{% block topbar %}
+
+{% csrf_token %}
+<input type="text" id="search" name="search" />
+<ul id="search-results">
+</ul>
+
+{% endblock %}
+
+
+
+ 
+{% block content %}
+     
+     <div id="wrapper">
+     <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-header">
+                                 <p>{{ person.first_name }} {{ person.last_name }}</p>
+                            <p>{{ person.address }}</p>
+
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    
+                                    <h2>Assigned Tasks</h2>
+<p>{{ task.description }}</p>
+<p>{{ task.TaskStatus }} is the current status of task</p>
+                                   
+{% if person.thumbnail %}
+<p><img src="/static/assets/{{person.thumbnail}}" class="img-circle img-responsive img-center"  width="150"/></p>
+{% endif %}
+                                    <p><a href="/persons/like/{{person.id}}" class="btn btn-xs btn-success pull-right">Like</a></p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="panel-footer">
+                                 <p>Comments</p>
+{% for c in person.comment_set.all %}
+
+
+<p>{{c.description}} {{c.CreatedOn}}: {{c.TaskType}}  {{c.person}} {{c.id}}
+<a href="/persons/delete_comment/{{c.id}}" class="btn btn-xs btn-danger">Delete</a>
+</p>
+{% endfor %}
+
+<p><a href="/persons/add_comment/{{person.id}}" class="btn btn-primary">Add Comment</a></p>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                     
+                    </div>
+                </div>
+             
+</div>
+
+
+     </div>    
+     
+     
+     
+     
+     
+    </div>  
+{% endblock %}
+<!--</body>
+</html>-->

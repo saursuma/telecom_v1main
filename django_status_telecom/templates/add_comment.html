@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block sidebar %}
+<ul>
+    <li><a href="/persons/get/{{person.id}}">Cancel</a></li>
+</ul>
+{% endblock %}
+
+{% block content %}
+
+<form action="/persons/add_comment/{{person.id}}/" method="post">{% csrf_token %}
+<ul>
+{{form.as_ul}}
+</ul>
+
+<input type="submit" name="submit" value="Post Comment">
+</form>
+
+{% endblock %}
+

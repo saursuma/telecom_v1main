@@ -1,0 +1,8 @@
+<html>
+<body>
+<h1>{{ person.first_name }}</h1>
+<p>{{ person.address }}</p>
+<p>{{ task.description }}</p>
+<p>{{ task.TaskStatus }}</p>
+</body>
+</html>

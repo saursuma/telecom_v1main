@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Status Update Application</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="{% static "assets/css/style.css" %}"/>
+  
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script src="{% static "assets/js/jquery-2.0.0.min.js" %}"></script>
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+  <script src="{% static "assets/js/ajax.js" %}"></script>
+  <!--script src="{% static "assets/js/jquery.min.js" %}"></script-->
+  
+  <!--script src="{% static "assets/js/image_slide.js" %}"></script-->
+</head>
+<body>
+  <div id="main">		
+
+    <header>
+	  <div id="strapline">
+	    <div id="welcome_slogan">
+	      <h3>Status Update<span>Scrum</span></h3>
+	    </div><!--close welcome_slogan-->
+      </div><!--close strapline-->	  
+	  <nav>
+	    <div id="menubar">
+          <ul id="nav">
+            <li class="current"><a href="/persons/all">Home</a></li>
+            <li><a href="/accounts/register/">Register</a></li>
+            <li><a href="/accounts/login/">Login</a></li>
+	    <li><a href="/admin/">Administrator</a></li>
+ 	    <li><a href="/contact/">Contact US</a></li>
+            <li> <a href="/accounts/logout/">Logout</a></li>
+           </ul>
+        </div><!--close menubar-->	
+      </nav>
+    </header>
+    
+    <!--div id="slideshow_container">  
+	  <div class="slideshow">
+	    <ul class="slideshow"-->
+          <!--li class="show"><img width="240" height="250" src="{% static "assets/images/scrum.png" %}" alt="&quot;Enter your caption here&quot;" /></li>
+          <li><img width="240" height="250" src="assets/images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+        </ul--> 
+	  <!--/div><!--close slideshow>  	
+	</div><close slideshow_container-->   
+	
+	<div id="site_content">		
+	 
+	  <div class="sidebar_container">       
+		<div class="sidebar">
+          <div class="sidebar_item">
+{% block sidebar %}
+		<ul>
+			<li> <a href="/persons/all">Persons</a></li>
+			<li> <a href="/admin/">Admin</a></li>
+                        
+		</ul>
+		{% endblock %}
+            <h2>Team Collaboration Application</h2>
+            
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->     		
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Update</h2>
+                   
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+		<div class="sidebar">
+          <div class="sidebar_item">
+                  
+		  </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->  		
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            
+          </div><!--close sidebar_item--> 
+        </div><!--close sidebar-->
+       </div><!--close sidebar_container-->	
+	   
+	  <div id="content">
+		{% if messages %}
+			<ul class="messages">
+		{% for message in messages %}
+		<li{% message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+		{% endfor %}
+			</ul>
+		{% endif %}
+        <div class="content_item">
+		  <h1>Welcome To Your Website</h1> 
+         {% block content %} This is the content area{% endblock %}
+	  
+		  
+         	
+		  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content-->  	
+
+    <footer>
+	  <a href="index.html">Home</a> | <a href="ourwork.html">Our Work</a> | <a href="testimonials.html">Testimonials</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact</a><br/><br/>
+	  <a href="http://fotogrph.com">Images</a> |  <a href="http://www.heartinternet.co.uk/vps/">Virtual Server</a>  | website template by <a href="http://www.freehtml5templates.co.uk">Free HTML5 Templates</a>
+    </footer>
+	
+  </div><!--close main-->
+  
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+  
+</body>
+</html>

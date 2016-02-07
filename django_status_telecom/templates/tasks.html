@@ -1,0 +1,104 @@
+<!--<html>
+<body>
+<h1>Persons</h1>-->
+{% extends "index.html" %}
+
+{% block topbar %}
+
+{% csrf_token %}
+<input type="text" id="search" name="search" />
+<ul id="search-results">
+</ul>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+     
+            <div class="col-lg-12">
+                <h2 class="page-header">All Tasks</h2>
+            </div>
+    
+    <div class="row">
+           {% if tasks.count > 0 %}
+{% for task in tasks %}
+         <div class="col-lg-4">
+          
+      <div class="well well-lg">
+               
+                    <h4>{{ task.person}} {{ task.site}}</h4>
+                    <p>{{ task.description|lower|truncatewords:"10" }}</p>
+                   <p> {{task.intiator}}, {{task.status}}</p>
+            
+                    </div>
+             
+            
+                </div>
+     {% endfor %}
+    
+        </div>   
+
+
+
+<hr>
+
+{% else %}
+<div class="col-6 col-sm-6 col-lg-4">
+<p> None to Show!</p>
+    </div>
+{% endif %}
+
+<!--script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize(var_lati,var_long,var_contentString) {
+    var myCenter = new google.maps.LatLng(var_lati,var_long);
+  var mapProp = {
+    center: myCenter,
+    zoom:14,
+    panControl:true,
+    rotateControl:true,
+    streetViewControl:true,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+    var var_infowindow = new google.maps.InfoWindow({
+      content: var_contentString
+    });
+    var marker = new google.maps.Marker({
+position:myCenter,
+});
+    marker.setMap(map);
+    
+     google.maps.event.addListener(marker, 'click', function() {
+		  var_infowindow.open(map,marker);
+    });
+    
+    
+  //     $('#mapmodals').on('shown.bs.modal', function() {
+//          google.maps.event.trigger(map, "resize");
+//          map.setCenter(myCenter);
+//      });
+}
+   
+    
+//$(document).on("click", ".openmodal", function(var_lat,var_lon) {
+ //  var var_mapTitle = $(this).data('id');
+    
+    
+//      initialize(var_lat,var_lon,"Collection");
+    
+//    $(".modal-header #title_id").html( var_mapTitle );
+//    $('#mapmodals').modal('show');
+//});    
+
+//google.maps.event.addDomListener(window, 'load', initialize());
+</script-->
+
+
+
+
+{% endblock %}
+

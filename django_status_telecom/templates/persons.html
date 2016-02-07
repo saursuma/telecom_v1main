@@ -1,0 +1,68 @@
+<!--<html>
+<body>
+<h1>Persons</h1>-->
+{% extends "index.html" %}
+
+{% block topbar %}
+
+{% csrf_token %}
+<input type="text" id="search" name="search" />
+<ul id="search-results">
+</ul>
+
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+	<h1>Start Here!</h1>
+	<p>Building a Collaborative Team Environment!</p>
+</div>
+</h2> Language is: {{language}}</h2>
+
+</h2> Session Language is: {{session_language}}</h2>
+<div class="row">
+
+     
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+    {% if persons.count > 0 %}
+{% for person in persons %}
+            <div class="col-lg-4 col-sm-6 text-center">
+             
+                <img class="img-circle img-responsive img-center" src="/static/assets/{{person.thumbnail}}" width="200"  height="200" alt="">
+                <h3><a href="/persons/get/{{ person.id }}">{{ person.first_name}} {{ person.last_name}}</a>
+                    <small>{{ person.address|lower|truncatewords:"10" }}</small>
+                </h3>
+                <p>{{ person.like}} people liked this person!</p>
+            </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--div class="col-6 col-sm-6 col-lg-4">
+<h2><a href="/persons/get/{{ person.id }}">{{ person.first_name |upper }}</a></h2>
+<p> {{ person.address|lower|truncatewords:"10" }}</p>
+<p> {{ person.like}} people liked this article</p>
+</div-->
+
+{% endfor %}
+
+<hr>
+
+{% else %}
+<div class="col-6 col-sm-6 col-lg-4">
+<p> None to Show!</p>
+    </div>
+{% endif %}
+</div>
+
+{% endblock %}
+<!--</body>
+</html>-->
