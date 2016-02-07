@@ -44,13 +44,25 @@ def persons(request):
 
 	return render_to_response('persons.html', args)
 
-def person(request, person_id=1):
-#	return render_to_response('person.html',{'person': Persons.objects.get(id=person_id)},context_instance=RequestContext(request))
-#	return render_to_response('person.html',{'person': Persons.objects.get(id=person_id)})
-	return render(request,'person.html',{'person': Persons.objects.get(id=person_id)})
+#def person(request, person_id=1):
+#	return render(request,'person.html',{'person': Persons.objects.get(id=person_id)})
 
-def task(request, person_id=1):
-	return render_to_response('person.html',{'task': Task.objects.get(id=person_id) })
+def person(request, id1=1):
+	return render(request,'person.html',{'person': Persons.objects.get(id=id1),'task': Task.objects.filter(person_id=id1)})
+
+
+#def task(request):
+	
+#	args = {}
+#	args.update(csrf(request))
+	
+#	args['tasks'] = Task.objects.all()
+	
+
+#	return render_to_response('persons.html', args)
+def task(request, id1=1):
+	#persons = Task.objects.filter(person_id__equals=search_text)
+	return render_to_response('person.html',{'task': Task.objects.filter(person_id=id1)})
 
 
 def language(request, language='en-gb'):

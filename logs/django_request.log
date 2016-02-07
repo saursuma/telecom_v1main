@@ -10591,3 +10591,1546 @@ TemplateSyntaxError: Invalid block tag on line 145: 'endblock', expected 'elif',
 2016-02-07 08:43:02,766 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
 2016-02-07 08:43:02,868 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
 2016-02-07 08:43:02,925 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:26:58,149 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 09:26:58,166 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:26:58,208 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:26:58,671 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:26:58,727 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:28:46,978 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 09:28:46,996 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:28:47,011 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:28:47,618 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:28:47,701 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:30:13,346 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 09:30:13,364 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:30:13,377 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:30:13,854 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:30:13,914 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:30:29,564 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 09:30:29,582 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:30:29,594 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:30:30,115 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:30:30,180 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:31:42,669 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 09:31:42,688 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:31:42,701 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 09:31:43,171 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 09:31:43,231 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 14:46:23,541 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 14:46:23,554 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:46:23,556 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:24,950 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:46:25,018 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:27,119 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 14:46:27,131 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 14:46:27,134 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 14:46:27,304 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 14:46:27,372 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 14:46:29,623 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 14:46:29,636 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:46:29,649 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:29,830 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:40,806 [WARNING] django.request: Not Found: /persons/get/7/font-awesome/css/font-awesome.min.css
+2016-02-07 14:46:40,978 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 14:46:41,021 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 14:46:43,372 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 14:46:43,385 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:46:43,397 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:43,727 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:51,376 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 14:46:51,391 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:46:51,404 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:46:51,574 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:50:01,885 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:50:02,057 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:50:02,124 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:50:07,143 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 14:50:07,156 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:50:07,158 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:50:07,365 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:54:31,223 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 14:54:31,243 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:54:31,255 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:54:31,790 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 14:54:31,882 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 14:54:33,748 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:54:33,760 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:54:33,770 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user1.png
+2016-02-07 14:54:33,774 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user5.png
+2016-02-07 14:54:33,780 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:54:33,809 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:54:33,921 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:54:33,923 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user1.png
+2016-02-07 14:54:33,957 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:54:34,060 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:55:37,724 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:55:37,745 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:55:37,756 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:55:38,144 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:55:38,218 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:55:38,243 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:55:38,294 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:56:13,762 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:56:13,780 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:56:13,791 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:56:14,213 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:56:14,321 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:56:14,370 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:57:08,282 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:57:08,300 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:57:08,315 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:57:08,695 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:57:08,754 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:57:08,778 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:57:08,833 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:57:12,692 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:57:12,704 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:57:12,718 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:57:12,733 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:57:12,826 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:57:12,855 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:57:12,913 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:58:00,908 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:58:00,928 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:58:00,933 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:58:01,339 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:58:01,407 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:58:01,433 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:58:01,489 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:58:43,169 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:58:43,189 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:58:43,191 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:58:43,596 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:58:43,667 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:58:43,694 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:58:43,747 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:59:35,540 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 14:59:35,559 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:59:35,573 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 14:59:36,005 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:59:36,080 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 14:59:36,107 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 14:59:36,159 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:00:45,611 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:00:45,632 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:00:45,646 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:00:46,051 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:00:46,107 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:00:46,135 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:00:46,184 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:01:16,069 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:01:16,091 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:01:16,105 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:01:16,637 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:01:16,717 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:01:16,743 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:01:16,799 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:01:43,039 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:01:43,058 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:01:43,075 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:01:43,570 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:01:43,655 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:01:43,715 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:01:59,988 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:02:00,010 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:02:00,025 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:02:00,709 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:02:00,776 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:02:00,801 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:02:00,859 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:02:44,529 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:02:44,548 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:02:44,565 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:02:44,973 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:02:45,028 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:02:45,058 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:02:45,115 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:02:46,063 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:02:46,080 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:02:46,082 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:02:46,214 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:02:46,363 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:02:46,393 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:02:46,478 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:03:09,294 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:03:09,313 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:03:09,328 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:03:09,730 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:03:09,793 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:03:09,818 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:03:09,871 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:03:48,760 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:03:48,782 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:03:48,796 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:03:49,200 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:03:49,269 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:03:49,293 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:03:49,357 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:07:16,431 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:07:16,450 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:07:16,461 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:07:16,878 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:07:16,933 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:07:16,959 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:07:17,022 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:07:53,094 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:07:53,112 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:07:53,127 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:07:53,524 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:07:53,589 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:07:53,617 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:07:53,670 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:10:02,105 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:10:02,131 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:10:02,142 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:10:02,525 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:10:02,710 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:10:02,834 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:10:02,891 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:17:50,102 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:17:50,129 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:17:50,145 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:17:50,552 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:17:50,735 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:17:50,862 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:17:50,888 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:18:14,810 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:18:14,835 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:18:14,848 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:18:15,236 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:18:15,466 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:18:15,596 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:18:15,654 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:21:30,959 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:21:30,989 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:21:30,996 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:21:31,474 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:21:31,649 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:21:31,776 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:21:31,815 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:21:50,815 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:21:50,842 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:21:50,855 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:21:51,238 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:21:51,468 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:21:51,585 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:21:51,686 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:26:35,197 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:26:35,219 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:26:35,228 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:26:35,665 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:26:35,720 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:26:35,744 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:26:35,837 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:29:06,183 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:29:06,203 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:29:06,221 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:29:06,725 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:29:06,807 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:29:06,858 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:29:52,233 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:29:52,252 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:29:52,263 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:29:52,828 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:29:52,891 [WARNING] django.request: Not Found: /persons/all/tasks/assets/img/user2.png
+2016-02-07 15:29:52,918 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:29:52,971 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:30:12,247 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:30:12,265 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:30:12,279 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:30:12,964 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:30:13,038 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:30:29,118 [WARNING] django.request: Not Found: /persons/create/task/font-awesome/css/font-awesome.min.css
+2016-02-07 15:30:29,129 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 15:30:29,136 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 15:31:00,142 [WARNING] django.request: Not Found: /persons/all
+2016-02-07 15:31:00,220 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:00,243 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 15:31:00,254 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:00,604 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 15:31:00,707 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:02,415 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:02,427 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:31:02,439 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:31:02,577 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:31:39,241 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:39,259 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 15:31:39,272 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:39,403 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:44,856 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:45,135 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 15:31:45,136 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 15:31:45,166 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 15:31:46,795 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:46,809 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 15:31:46,813 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:47,019 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:49,235 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:49,249 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 15:31:49,259 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 15:31:49,403 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 15:31:51,293 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:51,309 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 15:31:51,314 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:51,509 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:31:57,220 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:57,235 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 15:31:57,248 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:31:57,424 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 15:31:59,623 [WARNING] django.request: Not Found: /persons/all/sites/font-awesome/css/font-awesome.min.css
+2016-02-07 15:31:59,639 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 15:31:59,652 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 15:31:59,655 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 15:31:59,908 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 15:31:59,967 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 15:32:00,012 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 15:32:04,742 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 15:32:04,758 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 15:32:04,773 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 15:32:05,093 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 18:02:43,688 [WARNING] django.request: Not Found: /favicon.ico
+2016-02-07 18:02:47,786 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:02:47,937 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:02:47,948 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:02:48,156 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:03:28,263 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:03:28,285 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:03:28,298 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:03:28,831 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:03:28,881 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:03:51,533 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:03:51,552 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:03:51,565 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:03:52,067 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:03:52,119 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:04:32,030 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:04:32,052 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:04:32,067 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:04:32,584 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:04:32,634 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:05:32,353 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:05:32,371 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:05:32,372 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:05:32,840 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:05:32,888 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:05:46,914 [WARNING] django.request: Not Found: /persons/create/task/font-awesome/css/font-awesome.min.css
+2016-02-07 18:05:46,992 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:05:46,993 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:05:47,066 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:06:09,341 [WARNING] django.request: Not Found: /persons/all
+2016-02-07 18:06:09,464 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 18:06:09,470 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 18:06:09,492 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 18:06:09,608 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 18:06:09,695 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 18:06:12,909 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:06:12,912 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:06:12,915 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:06:13,012 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:06:13,058 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:09:44,660 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:09:44,677 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:09:44,678 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:09:45,151 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:09:45,201 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:10:50,210 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:10:50,229 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:10:50,242 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:10:50,764 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:10:50,813 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:11:32,413 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:11:32,430 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:11:32,443 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:11:32,930 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:11:32,974 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:11:35,103 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:11:35,120 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:11:35,133 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:11:35,326 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:11:35,369 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:12:06,606 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:12:06,622 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:12:06,628 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:12:07,132 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:12:07,176 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:14:44,599 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:14:44,613 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:14:44,615 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:14:45,126 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:14:45,170 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:16:38,502 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:16:38,521 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:16:38,535 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:16:39,034 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:16:39,084 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:17:05,096 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:17:05,116 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:17:05,118 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:17:05,620 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:17:05,672 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:18:23,586 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:18:23,608 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:18:23,609 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:18:24,115 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:18:24,156 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:18:57,223 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:18:57,244 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:18:57,262 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:18:57,732 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:18:57,776 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:28:31,631 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:28:31,653 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:28:31,656 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:28:32,125 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:28:32,172 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:29:23,227 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:29:23,246 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:29:23,263 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:29:23,718 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:29:23,761 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:32:23,742 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 18:32:23,755 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 18:32:23,762 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 18:32:23,868 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 18:32:23,964 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 18:32:31,882 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:32:32,003 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:32:32,015 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:32:32,091 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:33:06,649 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:06,656 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:06,667 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:06,752 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:06,795 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:19,361 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 18:33:19,379 [WARNING] django.request: Not Found: /persons/all/sites/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:19,446 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 18:33:19,459 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 18:33:19,471 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 18:33:19,568 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 18:33:19,581 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 18:33:21,067 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:21,082 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:21,083 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:21,174 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:21,219 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:22,234 [WARNING] django.request: Not Found: /persons/create/task/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:22,246 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:33:22,247 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:33:22,357 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:33:22,406 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:33:28,320 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:28,332 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:28,337 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:28,443 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:28,530 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:30,629 [WARNING] django.request: Not Found: /persons/create/task/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:30,645 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:33:30,646 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:33:30,735 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:33:30,811 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:33:32,329 [WARNING] django.request: Not Found: /persons/create/site/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:32,403 [WARNING] django.request: Not Found: /persons/create/site/js/jquery.min.js
+2016-02-07 18:33:32,404 [WARNING] django.request: Not Found: /persons/create/site/js/image_slide.js
+2016-02-07 18:33:32,446 [WARNING] django.request: Not Found: /persons/create/site/js/image_slide.js
+2016-02-07 18:33:36,909 [WARNING] django.request: Not Found: /persons/create/site/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:36,915 [WARNING] django.request: Not Found: /persons/create/site/js/jquery.min.js
+2016-02-07 18:33:36,929 [WARNING] django.request: Not Found: /persons/create/site/js/image_slide.js
+2016-02-07 18:33:37,019 [WARNING] django.request: Not Found: /persons/create/site/js/jquery.min.js
+2016-02-07 18:33:37,068 [WARNING] django.request: Not Found: /persons/create/site/js/image_slide.js
+2016-02-07 18:33:38,419 [WARNING] django.request: Not Found: /persons/create/task/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:38,432 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:33:38,433 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:33:38,514 [WARNING] django.request: Not Found: /persons/create/task/js/jquery.min.js
+2016-02-07 18:33:38,564 [WARNING] django.request: Not Found: /persons/create/task/js/image_slide.js
+2016-02-07 18:33:41,603 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:33:41,616 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:33:41,627 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:41,704 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:33:41,749 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:34:12,682 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:34:12,692 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:34:12,711 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:34:13,167 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:34:13,214 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:34:44,316 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:34:44,334 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:34:44,348 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:34:44,820 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:34:44,874 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:36:46,255 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:36:46,271 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:36:46,274 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:36:46,773 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:36:46,831 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:36:48,198 [WARNING] django.request: Not Found: /persons/get/
+2016-02-07 18:36:56,207 [WARNING] django.request: Not Found: /persons/get/
+2016-02-07 18:37:00,885 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:37:00,899 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:37:00,900 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:37:00,996 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:37:01,048 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:37:41,916 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 18:37:41,930 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:37:41,942 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:37:42,399 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 18:37:42,443 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 18:37:43,886 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 18:37:44,003 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 18:37:44,004 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 18:37:44,116 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 18:37:52,403 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:37:52,408 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:37:52,421 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:37:52,519 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:37:52,582 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:37:57,316 [WARNING] django.request: Not Found: /persons/get/3/font-awesome/css/font-awesome.min.css
+2016-02-07 18:37:57,498 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 18:37:57,515 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 18:37:57,535 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 18:38:06,185 [WARNING] django.request: Not Found: /persons/get/7/font-awesome/css/font-awesome.min.css
+2016-02-07 18:38:06,288 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 18:38:06,303 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 18:38:06,395 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 18:38:12,889 [WARNING] django.request: Not Found: /persons/get/7/font-awesome/css/font-awesome.min.css
+2016-02-07 18:38:12,904 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 18:38:12,914 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 18:38:13,042 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 18:38:13,139 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 18:39:56,426 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 50, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 514, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: Invalid block tag on line 156: 'endblock', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2016-02-07 18:41:38,341 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:41:38,355 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:41:38,373 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:41:38,832 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:41:38,878 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:49:06,214 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:49:06,233 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:49:06,243 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:49:06,728 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:49:06,777 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:50:29,168 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:50:29,188 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:50:29,199 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:50:29,660 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:50:29,706 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:51:35,314 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:51:35,336 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:51:35,337 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:51:35,802 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:51:35,851 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:52:14,558 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:52:14,575 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:52:14,586 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:52:15,046 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:52:15,099 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:52:40,809 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:52:40,827 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:52:40,842 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:52:41,299 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:52:41,343 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:53:02,054 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:53:02,071 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:53:02,085 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:53:02,556 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:53:02,599 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:53:23,091 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:53:23,113 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:53:23,128 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:53:23,602 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:53:23,646 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:54:53,999 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:54:54,024 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:54:54,027 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:54:54,487 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:54:54,536 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:55:11,466 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:55:11,482 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:55:11,500 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:55:11,981 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:55:12,019 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:55:36,264 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:55:36,283 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:55:36,298 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:55:36,751 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:55:36,793 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:57:03,297 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 18:57:03,309 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:57:03,326 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 18:57:03,839 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 18:57:03,891 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:00:27,618 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:00:27,636 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:00:27,637 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:00:28,137 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:00:28,180 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:00:48,395 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:00:48,413 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:00:48,425 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:00:48,880 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:00:48,921 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:01:12,791 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:01:12,806 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:01:12,807 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:01:13,283 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:01:13,328 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:02:06,328 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:02:06,346 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:02:06,359 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:02:06,833 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:02:06,882 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:03:01,785 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:03:01,803 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:03:01,817 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:03:02,271 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:03:02,313 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:06:25,939 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:06:25,958 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:06:25,993 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:06:27,777 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:06:27,831 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:06:42,962 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:06:42,975 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:06:42,990 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:06:43,512 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:06:43,558 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:11:43,933 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:11:43,954 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:11:43,999 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:11:44,451 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:11:44,506 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:13:16,359 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Task' object is not iterable
+2016-02-07 19:13:45,808 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Task' object is not iterable
+2016-02-07 19:14:49,539 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:15:35,102 [ERROR] django.request: Internal Server Error: /persons/get/3/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Task' object is not iterable
+2016-02-07 19:17:17,086 [ERROR] django.request: Internal Server Error: /persons/get/3/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Task' object is not iterable
+2016-02-07 19:17:28,430 [ERROR] django.request: Internal Server Error: /persons/get/3/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Task' object is not iterable
+2016-02-07 19:17:46,497 [WARNING] django.request: Not Found: /persons/get/3/font-awesome/css/font-awesome.min.css
+2016-02-07 19:17:46,516 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 19:17:46,531 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 19:17:47,022 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 19:17:47,074 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 19:18:15,822 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:18:22,336 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:18:22,350 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:18:22,352 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:18:22,477 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:18:22,562 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:18:24,318 [WARNING] django.request: Not Found: /persons/get/3/font-awesome/css/font-awesome.min.css
+2016-02-07 19:18:24,332 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 19:18:24,343 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 19:18:24,414 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 19:18:24,464 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 19:18:26,333 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:18:26,337 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:18:26,361 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:18:26,428 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:18:26,478 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:18:28,080 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:19:05,395 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:19:05,413 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:19:05,462 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:19:05,921 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:19:05,982 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:19:07,404 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 391, in get
+    (self.model._meta.object_name, num)
+MultipleObjectsReturned: get() returned more than one Task -- it returned 2!
+2016-02-07 19:20:40,928 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:20:40,950 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:20:40,951 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:20:41,458 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:20:41,507 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:20:44,295 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 391, in get
+    (self.model._meta.object_name, num)
+MultipleObjectsReturned: get() returned more than one Task -- it returned 2!
+2016-02-07 19:21:12,857 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 988, in render
+    bit = node.render_annotated(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/base.py", line 955, in render_annotated
+    return self.render(context)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Task' object is not iterable
+2016-02-07 19:21:19,106 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 391, in get
+    (self.model._meta.object_name, num)
+MultipleObjectsReturned: get() returned more than one Task -- it returned 2!
+2016-02-07 19:21:54,867 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id), 'task':Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 391, in get
+    (self.model._meta.object_name, num)
+MultipleObjectsReturned: get() returned more than one Task -- it returned 2!
+2016-02-07 19:28:46,967 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:28:46,984 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:28:46,988 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:28:47,461 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:28:47,512 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:28:48,808 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:28:48,820 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:28:48,827 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:28:48,908 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:28:48,968 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:28:52,133 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:28:52,146 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:28:52,158 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:28:52,274 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:28:52,324 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:28:55,154 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:28:55,161 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:28:55,163 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:28:55,260 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:28:55,319 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:28:59,057 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:28:59,067 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:28:59,082 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:28:59,164 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:28:59,216 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:29:02,498 [WARNING] django.request: Not Found: /persons/get/3/font-awesome/css/font-awesome.min.css
+2016-02-07 19:29:02,509 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 19:29:02,521 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 19:29:02,618 [WARNING] django.request: Not Found: /persons/get/3/js/jquery.min.js
+2016-02-07 19:29:02,674 [WARNING] django.request: Not Found: /persons/get/3/js/image_slide.js
+2016-02-07 19:29:05,372 [WARNING] django.request: Not Found: /persons/get/7/font-awesome/css/font-awesome.min.css
+2016-02-07 19:29:05,393 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 19:29:05,406 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 19:29:05,483 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 19:29:05,568 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 19:31:56,120 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:31:56,140 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:31:56,183 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:31:56,603 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:31:56,652 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:31:57,742 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:31:57,757 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:31:57,760 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:31:57,845 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:31:57,913 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:32:01,751 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:32:01,753 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:32:01,755 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:32:01,857 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:32:01,914 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:32:05,355 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:32:05,372 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:32:05,373 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:32:05,517 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:32:05,612 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:32:08,575 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:32:08,592 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:32:08,603 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:32:08,790 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:32:08,842 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:32:09,995 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:32:10,012 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:32:10,024 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:32:10,154 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:32:10,290 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:32:13,253 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:32:13,268 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:32:13,269 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:32:13,351 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:32:13,398 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:32:17,521 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 19:32:17,543 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:32:17,554 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:32:18,034 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 19:32:18,119 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 19:33:10,649 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:33:32,951 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:33:37,222 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:33:37,239 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:33:37,245 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:33:37,353 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:33:37,434 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:33:38,657 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:33:38,663 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:33:38,672 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:33:38,791 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:33:38,881 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:33:40,156 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:35:19,701 [WARNING] django.request: Not Found: /persons/task/1
+2016-02-07 19:35:19,730 [ERROR] django.request: Internal Server Error: /persons/task/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:35:25,441 [WARNING] django.request: Not Found: /persons/task/2
+2016-02-07 19:35:25,471 [ERROR] django.request: Internal Server Error: /persons/task/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:36:56,728 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:37:42,744 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:37:42,766 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:37:42,774 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:37:42,895 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:37:43,015 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:37:45,789 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:37:45,806 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:37:45,807 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:37:45,896 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:37:45,948 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:37:49,315 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:38:45,334 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:39:30,261 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:39:30,278 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:39:30,329 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:39:30,779 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:39:30,833 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:40:16,486 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:40:16,503 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:40:16,549 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:40:16,990 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:40:17,034 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:40:20,742 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:40:20,756 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:40:20,758 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:40:20,881 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:40:20,982 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:40:24,173 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 19:40:24,186 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:40:24,201 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:40:24,276 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 19:40:24,329 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 19:40:57,992 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render_to_response('person.html',{'task': Tasks.objects.get(id=person_id)})
+NameError: global name 'Tasks' is not defined
+2016-02-07 19:41:55,615 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render(request,'person.html',{'task': Task.objects.get(id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 387, in get
+    self.model._meta.object_name
+DoesNotExist: Task matching query does not exist.
+2016-02-07 19:42:47,358 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 54, in task
+    return render(request,'person.html',{'task': Task.objects.get(person_id=person_id)})
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/db/models/query.py", line 391, in get
+    (self.model._meta.object_name, num)
+MultipleObjectsReturned: get() returned more than one Task -- it returned 2!
+2016-02-07 19:43:30,335 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:44:31,762 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:48:04,620 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:48:16,893 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:48:16,910 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:48:16,960 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:48:17,036 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:48:17,099 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:48:18,371 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:49:37,796 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:49:45,101 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:49:45,110 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:49:45,126 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:49:45,239 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:49:45,329 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:49:48,752 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:49:48,767 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:49:48,780 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:49:48,875 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:49:48,934 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:49:50,700 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:50:59,010 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:51:08,346 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:52:01,972 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/utils/lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/urlresolvers.py", line 115, in get_callable
+    mod = import_module(mod_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 55
+    return render(request,'person.html',{'task': Task.objects.all())})
+                                                                   ^
+SyntaxError: invalid syntax
+2016-02-07 19:52:17,864 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:52:19,540 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:52:33,516 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:52:33,536 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:52:33,551 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:52:33,642 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:52:33,732 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:52:36,841 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:55:23,744 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:59:05,296 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 19:59:16,486 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 19:59:16,500 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:59:16,516 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:59:16,720 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 19:59:16,825 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 19:59:19,513 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 19:59:19,527 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:59:19,529 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:59:19,623 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 19:59:19,678 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 19:59:21,134 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 20:00:07,975 [ERROR] django.request: Internal Server Error: /persons/get/1/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: task() got an unexpected keyword argument 'person_id'
+2016-02-07 20:02:06,838 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 20:02:06,860 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:02:06,899 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:02:07,357 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:02:07,415 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:03:42,724 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 20:03:42,747 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:03:42,752 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:03:43,221 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:03:43,264 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:03:49,829 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:03:49,851 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:03:49,866 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:03:49,941 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:03:49,990 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:03:51,705 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 20:03:51,722 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 20:03:51,738 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 20:03:51,852 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 20:03:51,932 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 20:05:53,283 [ERROR] django.request: Internal Server Error: /persons/get/2/
+Traceback (most recent call last):
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/saurabh/django-saurabh-virt/local/lib/python2.7/site-packages/Django-1.9.1-py2.7.egg/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/saurabh/django-saurabh-virt/bin/django_status_telecom/persons/views.py", line 51, in person
+    return render(request,'person.html',{'person': Persons.objects.get(id=person_id),'task': Task.objects.filter(person_id=id1)})
+NameError: global name 'person_id' is not defined
+2016-02-07 20:07:02,599 [WARNING] django.request: Not Found: /persons/get/2/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:02,606 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 20:07:02,663 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 20:07:03,089 [WARNING] django.request: Not Found: /persons/get/2/js/jquery.min.js
+2016-02-07 20:07:03,138 [WARNING] django.request: Not Found: /persons/get/2/js/image_slide.js
+2016-02-07 20:07:20,408 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:20,426 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:07:20,431 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:07:20,515 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:07:20,565 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:07:31,783 [WARNING] django.request: Not Found: /persons/all/sites/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:31,792 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:07:31,798 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:07:31,806 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 20:07:31,910 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 20:07:31,961 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:07:32,009 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:07:44,071 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:44,086 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:07:44,086 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:07:44,170 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:07:44,220 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:07:47,275 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:47,289 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:07:47,302 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:07:47,369 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:07:47,421 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:07:55,596 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:55,610 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:07:55,611 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:07:55,719 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:07:55,800 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:07:58,329 [WARNING] django.request: Not Found: /persons/get/7/font-awesome/css/font-awesome.min.css
+2016-02-07 20:07:58,338 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 20:07:58,347 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 20:07:58,441 [WARNING] django.request: Not Found: /persons/get/7/js/jquery.min.js
+2016-02-07 20:07:58,500 [WARNING] django.request: Not Found: /persons/get/7/js/image_slide.js
+2016-02-07 20:08:04,089 [WARNING] django.request: Not Found: /persons/all/sites/font-awesome/css/font-awesome.min.css
+2016-02-07 20:08:04,104 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:08:04,106 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:08:04,119 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 20:08:04,223 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:08:04,270 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:08:06,696 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:08:06,705 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:08:06,722 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:08:06,792 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:08:06,835 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:08:22,690 [WARNING] django.request: Not Found: /persons/all/sites/font-awesome/css/font-awesome.min.css
+2016-02-07 20:08:22,699 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:08:22,723 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 20:08:22,724 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:08:22,829 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:08:22,888 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:08:24,600 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:08:24,616 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:08:24,617 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:08:24,703 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:08:24,751 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:08:35,797 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 20:08:35,810 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 20:08:35,811 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 20:08:35,943 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 20:08:36,053 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 20:09:05,511 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 20:09:05,532 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 20:09:05,544 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 20:09:06,048 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 20:09:06,122 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 20:09:14,526 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 20:09:14,539 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:09:14,553 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:09:14,652 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:09:14,742 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:09:23,537 [WARNING] django.request: Not Found: /persons/add_comment/1/font-awesome/css/font-awesome.min.css
+2016-02-07 20:09:23,679 [WARNING] django.request: Not Found: /persons/add_comment/1/js/jquery.min.js
+2016-02-07 20:09:23,691 [WARNING] django.request: Not Found: /persons/add_comment/1/js/image_slide.js
+2016-02-07 20:09:23,716 [WARNING] django.request: Not Found: /persons/add_comment/1/js/image_slide.js
+2016-02-07 20:09:37,378 [WARNING] django.request: Not Found: /persons/get/1
+2016-02-07 20:09:37,434 [WARNING] django.request: Not Found: /persons/get/1/font-awesome/css/font-awesome.min.css
+2016-02-07 20:09:37,438 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:09:37,453 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:09:37,538 [WARNING] django.request: Not Found: /persons/get/1/js/jquery.min.js
+2016-02-07 20:09:37,609 [WARNING] django.request: Not Found: /persons/get/1/js/image_slide.js
+2016-02-07 20:09:58,321 [WARNING] django.request: Not Found: /persons/all/font-awesome/css/font-awesome.min.css
+2016-02-07 20:09:58,334 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 20:09:58,346 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 20:09:58,447 [WARNING] django.request: Not Found: /persons/all/js/jquery.min.js
+2016-02-07 20:09:58,518 [WARNING] django.request: Not Found: /persons/all/js/image_slide.js
+2016-02-07 20:10:42,690 [WARNING] django.request: Not Found: /accounts/logout/font-awesome/css/font-awesome.min.css
+2016-02-07 20:10:42,722 [WARNING] django.request: Not Found: /accounts/logout/js/jquery.min.js
+2016-02-07 20:10:42,731 [WARNING] django.request: Not Found: /accounts/logout/js/image_slide.js
+2016-02-07 20:10:42,810 [WARNING] django.request: Not Found: /accounts/logout/js/image_slide.js
+2016-02-07 20:10:47,835 [WARNING] django.request: Not Found: /accounts/login/font-awesome/css/font-awesome.min.css
+2016-02-07 20:10:47,953 [WARNING] django.request: Not Found: /accounts/login/js/jquery.min.js
+2016-02-07 20:10:47,963 [WARNING] django.request: Not Found: /accounts/login/js/image_slide.js
+2016-02-07 20:10:53,969 [WARNING] django.request: Not Found: /accounts/loggedin
+2016-02-07 20:10:54,128 [WARNING] django.request: Not Found: /accounts/loggedin/font-awesome/css/font-awesome.min.css
+2016-02-07 20:10:54,227 [WARNING] django.request: Not Found: /accounts/loggedin/js/jquery.min.js
+2016-02-07 20:10:54,246 [WARNING] django.request: Not Found: /accounts/loggedin/js/image_slide.js
+2016-02-07 20:10:59,263 [WARNING] django.request: Not Found: /persons/all/sites/font-awesome/css/font-awesome.min.css
+2016-02-07 20:10:59,279 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:10:59,290 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:10:59,304 [WARNING] django.request: Not Found: /persons/all/sites/04_maps.png
+2016-02-07 20:10:59,388 [WARNING] django.request: Not Found: /persons/all/sites/js/jquery.min.js
+2016-02-07 20:10:59,438 [WARNING] django.request: Not Found: /persons/all/sites/js/image_slide.js
+2016-02-07 20:11:04,493 [WARNING] django.request: Not Found: /persons/all/tasks/font-awesome/css/font-awesome.min.css
+2016-02-07 20:11:04,506 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:11:04,508 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js
+2016-02-07 20:11:04,590 [WARNING] django.request: Not Found: /persons/all/tasks/js/jquery.min.js
+2016-02-07 20:11:04,642 [WARNING] django.request: Not Found: /persons/all/tasks/js/image_slide.js

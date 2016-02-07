@@ -1308,3 +1308,7 @@ SearchFieldError: The model '<Persons: Persons object>' does not have a model_at
 2016-02-04 17:02:26,883 [DEBUG] persons.views: [<Persons: Jude>]
 2016-02-04 17:02:27,096 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]
 2016-02-04 17:02:27,096 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-07 14:46:36,290 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-07 14:46:36,330 [DEBUG] persons.views: [<Persons: Jude>]
+2016-02-07 14:46:38,197 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]
+2016-02-07 14:46:38,197 [DEBUG] persons.views: [<Persons: Anshu>, <Persons: Jude>, <Persons: Natesh>, <Persons: Natesha>, <Persons: Nitin>, <Persons: Amtul>, <Persons: Devendra>, <Persons: Sunil>]

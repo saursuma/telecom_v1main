@@ -21,10 +21,63 @@
                 <h2 class="page-header">All Tasks</h2>
             </div>
     
-    <div class="row">
-           {% if tasks.count > 0 %}
-{% for task in tasks %}
-         <div class="col-lg-4">
+  {% if tasks.count > 0 %}
+ 
+
+        <table class="table colored-header datatable project-list">
+                 
+										<thead>
+										 	<tr>
+												<th>Assignee</th>
+												<th>Date Start</th>
+												<th>Days to Deadline</th>
+												<th>Priority</th>
+												<th>Assigned By</th>
+												<th>Status</th>
+											</tr> 
+                                       </thead>
+            <tbody>
+             <div class="row"> 
+            
+										
+                                          {% for task in tasks %} 
+                                           	<tr>
+												<td><a href="/persons/get/{{task.person_id}}">{{task.person}}</a></td>
+												<td>{{task.CreatedOn}}</td>
+												<td>12 days</td>
+												<td><span class="label label-warning">{{task.task_priority}}</span></td>
+												<td> <a href="#">{{task.CreatedBy}}</a></td>
+												<td><span class="label label-success">{{task.task_status}}</span></td>
+											</tr>
+											    {% endfor %}
+           
+ 
+            </div>
+                </tbody>
+									</table>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <!--div class="col-lg-4">
           
       <div class="well well-lg">
                
@@ -35,10 +88,11 @@
                     </div>
              
             
-                </div>
-     {% endfor %}
+                </div-->
+
+ 
     
-        </div>   
+        
 
 
 
