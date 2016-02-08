@@ -58,21 +58,51 @@
                                 </div>
         
     </div>
-     <div class="col-lg-6">
-        <div class="page-header">
-                                 <p>Comments</p>
+     <div class="col-lg-4">
+          <div class="list-group">
+               <h4 class="list-group-item active">Tasks</h4>
+                                
+        
+         
+     {% for t in person.task_set.all %}
+
+<p class="list-group-item-text">
+{{t.description}} {{t.CreatedOn}}: {{t.site_id}}  {{t.id}}
+</p>
+              
+{% endfor %}
          </div>
+    </div>
+    
+     <div class="col-lg-4">
+           <div class="list-group">
+            <h4 class="list-group-item active">Comments</h4>
+         
 {% for c in person.comment_set.all %}
-
-
-<p>{{c.description}} {{c.CreatedOn}}: {{c.TaskType}}  {{c.person}} {{c.id}}
+               <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+<p class="list-group-item-text">
+{{c.description}} {{c.CreatedOn}}: {{c.TaskType}}  {{c.person}} {{c.id}}
 <a href="/persons/delete_comment/{{c.id}}" class="btn btn-xs btn-danger">Delete</a>
 </p>
+         
+         
+        
 {% endfor %}
+      
+          
 <div class="panel-footer">
 <p><a href="/persons/add_comment/{{person.id}}" class="btn btn-xs btn-primary">Add Comment</a></p>
+    
+       </div>
+    </div>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
+                                <div class="clearfix">
+    
+   
+    
+    
+    
+    </div>
                             </div>
         
         
@@ -108,6 +138,8 @@
 												<td> <a href="#">{{tas.CreatedBy}}</a></td>
 												<td><span class="label label-success">{{tas.task_status}}</span></td>
 											</tr></tr>
+                     
+</div>
 											    {% endfor %}
            
  
@@ -116,20 +148,8 @@
 									</table>
         
          </hr>
-                                          
-                                
-                            </div>
-                        </div>
-                        
-                            
-                     
-                    </div>
-                </div>
-             
-</div>
 
-
-     </div>    
+                       
      
      
      

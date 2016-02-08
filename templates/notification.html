@@ -1,8 +1,9 @@
 {% extends "index.html" %}
 
 {% block content %}
-
+<div class="alert alert-success" role="alert">
 <h2> {{notification.title}} </h2>
 <p>{{notification.message}}</p>
+</div>
 <p><a href="/notification/delete/{{notification.id}}/"> Mark as read</a></p>
 {% endblock %}
